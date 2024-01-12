@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "ProjetP1", "index.html", [
+  [ "Projet P2 : The Maze", "index.html", [
     [ "mazeProjetP2", "md__r_e_a_d_m_e.html", [
       [ "Getting started", "md__r_e_a_d_m_e.html#autotoc_md1", null ],
       [ "Add your files", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
