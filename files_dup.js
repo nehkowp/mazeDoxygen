@@ -1,13 +1,13 @@
 var files_dup =
 [
-    [ "clem.c", "clem_8c.html", "clem_8c" ],
-    [ "clem.h", "clem_8h.html", "clem_8h" ],
-    [ "etienne.c", "etienne_8c.html", "etienne_8c" ],
-    [ "etienne.h", "etienne_8h.html", "etienne_8h" ],
-    [ "gabin.c", "gabin_8c.html", "gabin_8c" ],
-    [ "gabin.h", "gabin_8h.html", "gabin_8h" ],
+    [ "affichage.c", "affichage_8c.html", "affichage_8c" ],
+    [ "affichage.h", "affichage_8h.html", "affichage_8h" ],
+    [ "event.c", "event_8c.html", "event_8c" ],
+    [ "event.h", "event_8h.html", "event_8h" ],
+    [ "game.c", "game_8c.html", "game_8c" ],
+    [ "game.h", "game_8h.html", "game_8h" ],
+    [ "generation.c", "generation_8c.html", "generation_8c" ],
+    [ "generation.h", "generation_8h.html", "generation_8h" ],
     [ "main.c", "main_8c.html", "main_8c" ],
-    [ "paul.c", "paul_8c.html", "paul_8c" ],
-    [ "paul.h", "paul_8h.html", "paul_8h" ],
     [ "structure.h", "structure_8h.html", "structure_8h" ]
 ];

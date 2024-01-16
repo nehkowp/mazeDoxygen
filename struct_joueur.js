@@ -7,5 +7,6 @@ var struct_joueur =
     [ "findKeys", "struct_joueur.html#ae6dbe2e5f09bff230158f17fde2632d8", null ],
     [ "inventaire", "struct_joueur.html#a60a1e6a19e42a7283022691f63f54478", null ],
     [ "positions", "struct_joueur.html#a9c9b676a3cd447265503c409674fd09d", null ],
-    [ "pvHealth", "struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee", null ]
+    [ "pvHealth", "struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee", null ],
+    [ "visionRange", "struct_joueur.html#a9ff398b63a6e7f747ed6588eb4004aa5", null ]
 ];

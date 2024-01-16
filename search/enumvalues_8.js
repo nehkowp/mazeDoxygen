@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['score_325',['SCORE',['../structure_8h.html#aa8c0b30d56cd82613629274f264dff22af57444a2814db96222f09035ff269767',1,'structure.h']]]
+  ['poison_328',['POISON',['../structure_8h.html#aa8c0b30d56cd82613629274f264dff22aafa82716ce8ad7247f07e61a5d88ba01',1,'structure.h']]]
 ];
