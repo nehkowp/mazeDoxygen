@@ -7,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Projet P2 : The Maze: mazeProjetP2</title>
+<title>Projet P2 : The Maze: README</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -95,99 +95,50 @@ $(document).ready(function(){initNavTree('md__r_e_a_d_m_e.html',''); initResizab
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">mazeProjetP2 </div>  </div>
+<div class="title">README </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md1"></a>
-Getting started</h1>
-<p>To make it easy for you to get started with GitLab, here's a list of recommended next steps.</p>
-<p>Already a pro? Just edit this <a class="el" href="_r_e_a_d_m_e_8md.html">README.md</a> and make it your own. Want to make it easy? <a href="#editing-this-readme">Use the template at the bottom</a>!</p>
-<h1><a class="anchor" id="autotoc_md2"></a>
-Add your files</h1>
-<ul>
-<li>[ ] <a href="https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file">Create</a> or <a href="https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file">upload</a> files</li>
-<li>[ ] <a href="https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line">Add files using the command line</a> or push an existing Git repository with the following command:</li>
+<div class="textblock"><p>Pour plus d'information sur la documentation : <a href="https://nehkowp.github.io/mazeDoxygen/index.html">https://nehkowp.github.io/mazeDoxygen/index.html</a></p>
+<p>Pour compiler et exécuter votre programme : make ./exe make clean (pour supprimer les .o)</p>
+<p>Le jeu est plutôt simple et facile à comprendre. Il suffit de déplacer le personnage jusqu'à l'arrivée 🏁.</p>
+<p>Les déplacements sont réalisés en utilisant :</p><ul>
+<li>Z pour aller vers le haut ➡️</li>
+<li>Q pour aller vers la gauche ➡️</li>
+<li>S pour aller vers le bas ⬇️</li>
+<li>D pour aller vers la droite ➡️</li>
 </ul>
-<div class="fragment"><div class="line">cd existing_repo</div>
-<div class="line">git remote add origin https://gitlab.etude.cy-tech.fr/e-pbrechen/mazeprojetp2.git</div>
-<div class="line">git branch -M main</div>
-<div class="line">git push -uf origin main</div>
-</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
-Integrate with your tools</h1>
-<ul>
-<li>[ ] <a href="https://gitlab.etude.cy-tech.fr/e-pbrechen/mazeprojetp2/-/settings/integrations">Set up project integrations</a></li>
+<p>Sur votre route, vous aurez la possibilité de récupérer des bonus ou des malus :</p><ul>
+<li>Touches numériques 1️⃣ /2️⃣ /3️⃣ /4️⃣ /5️⃣ pour utiliser l'item depuis votre inventaire</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md4"></a>
-Collaborate with your team</h1>
+<p>Leurs effets sont les suivants :</p>
 <ul>
-<li>[ ] <a href="https://docs.gitlab.com/ee/user/project/members/">Invite team members and collaborators</a></li>
-<li>[ ] <a href="https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html">Create a new merge request</a></li>
-<li>[ ] <a href="https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically">Automatically close issues from merge requests</a></li>
-<li>[ ] <a href="https://docs.gitlab.com/ee/user/project/merge_requests/approvals/">Enable merge request approvals</a></li>
-<li>[ ] <a href="https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html">Automatically merge when pipeline succeeds</a></li>
+<li>Pièce d'or 🪙 : bonus de points de score</li>
+<li>Médicament 💊 : soigne 2 ❤️</li>
+<li>Ambulance 🚑 : soigne 5 ❤️</li>
+<li>Chute de pierres 🤕 : perte de 2 ❤️</li>
+<li>Piège à flammes 🔥 : perte de ❤️ sur la durée</li>
+<li>Poison 🧪 : perte plus intense de ❤️ sur la durée</li>
+<li>Champagne 🍾 : perturbe la vision et l'estimation des distances, augmente la sensibilité à l'éblouissement, altère la coordination des mouvements. (à consommer avec modération)</li>
+<li>Lait 🥛 : annule les effets du poison, du champagne et même du feu ! (à consommer sans modération)</li>
+<li>Fil d'Ariane 🧶 : indique la sortie du labyrinthe, si elle est accessible.</li>
 </ul>
-<h1><a class="anchor" id="autotoc_md5"></a>
-Test and Deploy</h1>
-<p>Use the built-in continuous integration in GitLab.</p>
-<ul>
-<li>[ ] <a href="https://docs.gitlab.com/ee/ci/quick_start/index.html">Get started with GitLab CI/CD</a></li>
-<li>[ ] <a href="https://docs.gitlab.com/ee/user/application_security/sast/">Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)</a></li>
-<li>[ ] <a href="https://docs.gitlab.com/ee/topics/autodevops/requirements.html">Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy</a></li>
-<li>[ ] <a href="https://docs.gitlab.com/ee/user/clusters/agent/">Use pull-based deployments for improved Kubernetes management</a></li>
-<li>[ ] <a href="https://docs.gitlab.com/ee/ci/environments/protected_environments.html">Set up protected environments</a></li>
+<p>Modes de jeu : Les modes EASY, NORMAL et HARD influent sur la vie de départ du joueur. À vous de découvrir les secrets des autres modes...</p>
+<p>Notes pour le mode Player :</p><ul>
+<li>Le champagne 🍾 diminue le champ de vision du joueur, jusqu'à être guéri par un verre de lait 🥛.</li>
+<li>Le saxophone 🎷 augmente le champ de vision du joueur.</li>
 </ul>
-<hr  />
-<h1><a class="anchor" id="autotoc_md6"></a>
-Editing this README</h1>
-<p>When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to <a href="https://www.makeareadme.com/">makeareadme.com</a> for this template.</p>
-<h2><a class="anchor" id="autotoc_md7"></a>
-Suggestions for a good README</h2>
-<p>Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.</p>
-<h2><a class="anchor" id="autotoc_md8"></a>
-Name</h2>
-<p>Choose a self-explaining name for your project.</p>
-<h2><a class="anchor" id="autotoc_md9"></a>
-Description</h2>
-<p>Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.</p>
-<h2><a class="anchor" id="autotoc_md10"></a>
-Badges</h2>
-<p>On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.</p>
-<h2><a class="anchor" id="autotoc_md11"></a>
-Visuals</h2>
-<p>Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.</p>
-<h2><a class="anchor" id="autotoc_md12"></a>
-Installation</h2>
-<p>Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.</p>
-<h2><a class="anchor" id="autotoc_md13"></a>
-Usage</h2>
-<p>Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.</p>
-<h2><a class="anchor" id="autotoc_md14"></a>
-Support</h2>
-<p>Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.</p>
-<h2><a class="anchor" id="autotoc_md15"></a>
-Roadmap</h2>
-<p>If you have ideas for releases in the future, it is a good idea to list them in the README.</p>
-<h2><a class="anchor" id="autotoc_md16"></a>
-Contributing</h2>
-<p>State if you are open to contributions and what your requirements are for accepting them.</p>
-<p>For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.</p>
-<p>You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.</p>
-<h2><a class="anchor" id="autotoc_md17"></a>
-Authors and acknowledgment</h2>
-<p>Show your appreciation to those who have contributed to the project.</p>
-<h2><a class="anchor" id="autotoc_md18"></a>
-License</h2>
-<p>For open source projects, say how it is licensed.</p>
-<h2><a class="anchor" id="autotoc_md19"></a>
-Project status</h2>
-<p>If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers. </p>
-</div></div><!-- contents -->
+<p>Ce jeu a été realisé par Paul Brechenmacher, Paul Le Blanc, Etienne Massonnet et Gabin Alquier pour un projet de fin de premier semestre 2023-2024.</p>
+<pre class="fragment">Un aventurier maquillé
+  Maniant un instrument cuivré
+    Dans le dédale embrumé il ose s'aventurer,
+    D'un club légendaire il souhaite percer les secrets
+</pre> </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 16 2024 21:38:05 for Projet P2 : The Maze by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Tue Jan 16 2024 21:48:57 for Projet P2 : The Maze by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

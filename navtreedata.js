@@ -25,28 +25,7 @@
 var NAVTREE =
 [
   [ "Projet P2 : The Maze", "index.html", [
-    [ "mazeProjetP2", "md__r_e_a_d_m_e.html", [
-      [ "Getting started", "md__r_e_a_d_m_e.html#autotoc_md1", null ],
-      [ "Add your files", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
-      [ "Integrate with your tools", "md__r_e_a_d_m_e.html#autotoc_md3", null ],
-      [ "Collaborate with your team", "md__r_e_a_d_m_e.html#autotoc_md4", null ],
-      [ "Test and Deploy", "md__r_e_a_d_m_e.html#autotoc_md5", null ],
-      [ "Editing this README", "md__r_e_a_d_m_e.html#autotoc_md6", [
-        [ "Suggestions for a good README", "md__r_e_a_d_m_e.html#autotoc_md7", null ],
-        [ "Name", "md__r_e_a_d_m_e.html#autotoc_md8", null ],
-        [ "Description", "md__r_e_a_d_m_e.html#autotoc_md9", null ],
-        [ "Badges", "md__r_e_a_d_m_e.html#autotoc_md10", null ],
-        [ "Visuals", "md__r_e_a_d_m_e.html#autotoc_md11", null ],
-        [ "Installation", "md__r_e_a_d_m_e.html#autotoc_md12", null ],
-        [ "Usage", "md__r_e_a_d_m_e.html#autotoc_md13", null ],
-        [ "Support", "md__r_e_a_d_m_e.html#autotoc_md14", null ],
-        [ "Roadmap", "md__r_e_a_d_m_e.html#autotoc_md15", null ],
-        [ "Contributing", "md__r_e_a_d_m_e.html#autotoc_md16", null ],
-        [ "Authors and acknowledgment", "md__r_e_a_d_m_e.html#autotoc_md17", null ],
-        [ "License", "md__r_e_a_d_m_e.html#autotoc_md18", null ],
-        [ "Project status", "md__r_e_a_d_m_e.html#autotoc_md19", null ]
-      ] ]
-    ] ],
+    [ "README", "md__r_e_a_d_m_e.html", null ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],
@@ -73,7 +52,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "affichage_8c.html",
-"structnode.html#a2c22fb242025e200ae923fcd076da684"
+"structure_8h.html#a4b61441e73c1f41f6e5bfa9e3c3e8580"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
