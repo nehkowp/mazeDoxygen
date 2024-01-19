@@ -1,7 +1,5 @@
 var generation_8c =
 [
-    [ "afficherJoueur", "generation_8c.html#a7aa184c3041c0a787afd030f35214c06", null ],
-    [ "afficherMatrice1", "generation_8c.html#a70d78a84bf09aa24575f07835c51b32b", null ],
     [ "ajouter_pile", "generation_8c.html#a01684c70684576cac97486f5f9ad4895", null ],
     [ "allouerTab1", "generation_8c.html#abfed6038834c978dd494702828b48932", null ],
     [ "allouerTab2", "generation_8c.html#a21dea88c24475e779e3f5c5b6bfe1d93", null ],
@@ -14,7 +12,7 @@ var generation_8c =
     [ "mazePlacementComplexe", "generation_8c.html#ab7a020c5bcc96bced182a72eed309474", null ],
     [ "mazePlacementSimple", "generation_8c.html#af959906bc59adf08ce81dba9f2f07c66", null ],
     [ "placerEvents", "generation_8c.html#a363ca7ec815ed20bbe3299ac58edb0d0", null ],
-    [ "placerKeys", "generation_8c.html#a05f303947d0dc977be382ad8caf5aca1", null ],
+    [ "placerKeys", "generation_8c.html#a1fd470eaa56ddee20222e6171f7f2a64", null ],
     [ "retirer_pile", "generation_8c.html#a6c8cd63094b3563d983a8f8014a40531", null ],
     [ "setCheck", "generation_8c.html#ad2befae8f684eab0d560cd6f25901eed", null ],
     [ "setEnd", "generation_8c.html#a2f4ebf0966a4dedfb080c9541f4d2831", null ],

@@ -111,7 +111,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:ae1793ab69ec199b96bae50c64468377b"><td class="mdescLeft">&#160;</td><td class="mdescRight">vide le buffer  <a href="event_8h.html#ae1793ab69ec199b96bae50c64468377b">More...</a><br /></td></tr>
 <tr class="separator:ae1793ab69ec199b96bae50c64468377b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a164bcde816e160497b358ee74d2b7613"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="event_8h.html#a164bcde816e160497b358ee74d2b7613">deplacementTouche</a> (int etatJoueur)</td></tr>
-<tr class="memdesc:a164bcde816e160497b358ee74d2b7613"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de capturer une touche utiliser par l'utilisateur et interprète cette entrée en fonction de l'état du joueur fourni et qui renvoie la touche pressée.  <a href="event_8h.html#a164bcde816e160497b358ee74d2b7613">More...</a><br /></td></tr>
+<tr class="memdesc:a164bcde816e160497b358ee74d2b7613"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet de capturer une touche utilisée par l'utilisateur et interprète cette entrée en fonction de l'état du joueur fourni et qui renvoie la touche pressée.  <a href="event_8h.html#a164bcde816e160497b358ee74d2b7613">More...</a><br /></td></tr>
 <tr class="separator:a164bcde816e160497b358ee74d2b7613"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1758b4900c8f1aae8541d7db3288b380"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="event_8h.html#a1758b4900c8f1aae8541d7db3288b380">mazeCSV</a> (<a class="el" href="struct_maze.html">Maze</a> *maze)</td></tr>
 <tr class="memdesc:a1758b4900c8f1aae8541d7db3288b380"><td class="mdescLeft">&#160;</td><td class="mdescRight">permet d'écrire le contenue de la structure <a class="el" href="struct_maze.html">Maze</a> dans un fichier CSV "maze.csv" placé dans le repertoire "out/"  <a href="event_8h.html#a1758b4900c8f1aae8541d7db3288b380">More...</a><br /></td></tr>
@@ -134,6 +134,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a6f3db9a75921901521d8c4e9bfda5571"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="event_8h.html#a6f3db9a75921901521d8c4e9bfda5571">milkPotionEvent</a> (<a class="el" href="struct_jeu.html">Jeu</a> *jeu)</td></tr>
 <tr class="memdesc:a6f3db9a75921901521d8c4e9bfda5571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet d'effectuer l'évenement verre de lait (supprime les effets négatifs du joueur)  <a href="event_8h.html#a6f3db9a75921901521d8c4e9bfda5571">More...</a><br /></td></tr>
 <tr class="separator:a6f3db9a75921901521d8c4e9bfda5571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf93c63fb7f57621e22b8e5f7177dcab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="event_8h.html#abf93c63fb7f57621e22b8e5f7177dcab">notSoRandom</a> (<a class="el" href="struct_jeu.html">Jeu</a> *jeu)</td></tr>
+<tr class="memdesc:abf93c63fb7f57621e22b8e5f7177dcab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifie l'aléatoire pour une apparition des objets plus équilibrée.  <a href="event_8h.html#abf93c63fb7f57621e22b8e5f7177dcab">More...</a><br /></td></tr>
+<tr class="separator:abf93c63fb7f57621e22b8e5f7177dcab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af25db44d9523d9651c0ef95007c346a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="event_8h.html#af25db44d9523d9651c0ef95007c346a9">naviguerArbreChemins</a> (<a class="el" href="structure_8h.html#a6c7e7b6d555c95368a8e08f4bb292674">arbreChemins</a> a, <a class="el" href="struct_maze.html">Maze</a> maze, int ***tabAriane, int *x)</td></tr>
 <tr class="memdesc:af25db44d9523d9651c0ef95007c346a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Algo A*) Permet naviguer dans l'arbre et d'incrémenter la valeur x à chaque case et de placer la valeur maximal sur la fin  <a href="event_8h.html#af25db44d9523d9651c0ef95007c346a9">More...</a><br /></td></tr>
 <tr class="separator:af25db44d9523d9651c0ef95007c346a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,6 +152,21 @@ Functions</h2></td></tr>
 <tr class="memitem:aa44b44ec95de6ba2f983d27c17537a70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="event_8h.html#aa44b44ec95de6ba2f983d27c17537a70">filAriane2</a> (<a class="el" href="struct_jeu.html">Jeu</a> *jeu)</td></tr>
 <tr class="memdesc:aa44b44ec95de6ba2f983d27c17537a70"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet d'afficher le fil d'Ariane.  <a href="event_8h.html#aa44b44ec95de6ba2f983d27c17537a70">More...</a><br /></td></tr>
 <tr class="separator:aa44b44ec95de6ba2f983d27c17537a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97348617cb81aa5b3cdd65718916d9a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="event_8h.html#a97348617cb81aa5b3cdd65718916d9a0">verifEvent</a> (<a class="el" href="struct_jeu.html">Jeu</a> *jeu, int ***maze, int positionL, int positionC)</td></tr>
+<tr class="memdesc:a97348617cb81aa5b3cdd65718916d9a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vérifie si un event est placé sur la case demandé par le joueur et effectue un évenement aléatoirement.  <a href="event_8h.html#a97348617cb81aa5b3cdd65718916d9a0">More...</a><br /></td></tr>
+<tr class="separator:a97348617cb81aa5b3cdd65718916d9a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16ef38eeab66e5f3e2ca1a2cbddc0849"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="event_8h.html#a16ef38eeab66e5f3e2ca1a2cbddc0849">eventJoueur</a> (int *typeEvent, <a class="el" href="struct_joueur.html">Joueur</a> *j)</td></tr>
+<tr class="memdesc:a16ef38eeab66e5f3e2ca1a2cbddc0849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Effectue l'event en vérifiant son type et l'état du joueur (souvent le poison ou le feu)  <a href="event_8h.html#a16ef38eeab66e5f3e2ca1a2cbddc0849">More...</a><br /></td></tr>
+<tr class="separator:a16ef38eeab66e5f3e2ca1a2cbddc0849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a193c993bef12884aec35a2b53a584cc7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="event_8h.html#a193c993bef12884aec35a2b53a584cc7">ajouterItemInventaire</a> (<a class="el" href="struct_jeu.html">Jeu</a> *jeu, int type, char *name)</td></tr>
+<tr class="memdesc:a193c993bef12884aec35a2b53a584cc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ajoute un objet dans l'inventaire du joueur.  <a href="event_8h.html#a193c993bef12884aec35a2b53a584cc7">More...</a><br /></td></tr>
+<tr class="separator:a193c993bef12884aec35a2b53a584cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af07e0791b437de9e5a71f602a0fe66f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="event_8h.html#af07e0791b437de9e5a71f602a0fe66f8">verifPoisonFeu</a> (<a class="el" href="struct_joueur.html">Joueur</a> *j)</td></tr>
+<tr class="memdesc:af07e0791b437de9e5a71f602a0fe66f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet d'effectuer les évenements poison et feu en influant sur la vie du joueur.  <a href="event_8h.html#af07e0791b437de9e5a71f602a0fe66f8">More...</a><br /></td></tr>
+<tr class="separator:af07e0791b437de9e5a71f602a0fe66f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e9061fc5e697df18893ea60da099d41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="event_8h.html#a8e9061fc5e697df18893ea60da099d41">verifEtatEvent</a> (<a class="el" href="struct_joueur.html">Joueur</a> *j, int *typeEvent)</td></tr>
+<tr class="memdesc:a8e9061fc5e697df18893ea60da099d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vérifie l'état de l'évenement pour l'affichage et la fin du poison et du feu.  <a href="event_8h.html#a8e9061fc5e697df18893ea60da099d41">More...</a><br /></td></tr>
+<tr class="separator:a8e9061fc5e697df18893ea60da099d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -182,19 +200,85 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00204">204</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                              {</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; maze-&gt;<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>; i++) {</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; maze-&gt;<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>; j++) {</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            printf(<span class="stringliteral">&quot;%2d &quot;</span>, maze-&gt;<a class="code" href="struct_maze.html#ac4640021749af6020a21b749e4f4416b">tabMaze</a>[i][j]);</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        }</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        printf(<span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    }</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00205">205</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                              {</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; maze-&gt;<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>; i++) {</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; maze-&gt;<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>; j++) {</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            printf(<span class="stringliteral">&quot;%2d &quot;</span>, maze-&gt;<a class="code" href="struct_maze.html#ac4640021749af6020a21b749e4f4416b">tabMaze</a>[i][j]);</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        }</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        printf(<span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    }</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;}</div>
 <div class="ttc" id="astruct_maze_html_a862343d5fd8e7d05fd8c05a28f21b068"><div class="ttname"><a href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">Maze::sizeMaze</a></div><div class="ttdeci">int sizeMaze</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00083">structure.h:83</a></div></div>
 <div class="ttc" id="astruct_maze_html_ac4640021749af6020a21b749e4f4416b"><div class="ttname"><a href="struct_maze.html#ac4640021749af6020a21b749e4f4416b">Maze::tabMaze</a></div><div class="ttdeci">int ** tabMaze</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00084">structure.h:84</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="structure_8h_source.html#l00083">Maze::sizeMaze</a>, and <a class="el" href="structure_8h_source.html#l00084">Maze::tabMaze</a>.</p>
+
+</div>
+</div>
+<a id="a193c993bef12884aec35a2b53a584cc7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a193c993bef12884aec35a2b53a584cc7">&#9670;&nbsp;</a></span>ajouterItemInventaire()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ajouterItemInventaire </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_jeu.html">Jeu</a> *&#160;</td>
+          <td class="paramname"><em>jeu</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>name</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ajoute un objet dans l'inventaire du joueur. </p>
+<dl class="section author"><dt>Author</dt><dd>Paul Brechenmacher </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>(January 7th, 2024 9:17 AM) </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">jeu</td><td><a class="el" href="struct_jeu.html">Jeu</a> contenant l'inventaire </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">type</td><td>Type de l'objet à ajouter </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">name</td><td>Nom de l'objet à ajouter </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">jeu</td><td><a class="el" href="struct_jeu.html">Jeu</a> contenant l'inventaire avec le nouvel item </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00214">214</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                                                          {</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <span class="keywordtype">int</span> nbItems = 0;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keywordflow">while</span>(jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a60a1e6a19e42a7283022691f63f54478">inventaire</a>[nbItems].<a class="code" href="struct_item.html#a22a98aed7ce8f0314b597a5739c415b7">type</a> != <a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22ac157bdf0b85a40d2619cbc8bc1ae5fe2">NONE</a>){</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        nbItems++;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    }</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a60a1e6a19e42a7283022691f63f54478">inventaire</a>[nbItems].<a class="code" href="struct_item.html#a22a98aed7ce8f0314b597a5739c415b7">type</a> = type;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a60a1e6a19e42a7283022691f63f54478">inventaire</a>[nbItems].<a class="code" href="struct_item.html#a06c6faeee0e8202db92886ea8a4472d7">name</a> = name;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;}</div>
+<div class="ttc" id="astruct_item_html_a06c6faeee0e8202db92886ea8a4472d7"><div class="ttname"><a href="struct_item.html#a06c6faeee0e8202db92886ea8a4472d7">Item::name</a></div><div class="ttdeci">char * name</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00056">structure.h:56</a></div></div>
+<div class="ttc" id="astruct_item_html_a22a98aed7ce8f0314b597a5739c415b7"><div class="ttname"><a href="struct_item.html#a22a98aed7ce8f0314b597a5739c415b7">Item::type</a></div><div class="ttdeci">int type</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00055">structure.h:55</a></div></div>
+<div class="ttc" id="astruct_jeu_html_a9699ce0488a9a79d352a9d41944c0cf0"><div class="ttname"><a href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">Jeu::j</a></div><div class="ttdeci">Joueur j</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00101">structure.h:101</a></div></div>
+<div class="ttc" id="astruct_joueur_html_a60a1e6a19e42a7283022691f63f54478"><div class="ttname"><a href="struct_joueur.html#a60a1e6a19e42a7283022691f63f54478">Joueur::inventaire</a></div><div class="ttdeci">Item * inventaire</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00061">structure.h:61</a></div></div>
+<div class="ttc" id="astructure_8h_html_aa8c0b30d56cd82613629274f264dff22ac157bdf0b85a40d2619cbc8bc1ae5fe2"><div class="ttname"><a href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22ac157bdf0b85a40d2619cbc8bc1ae5fe2">NONE</a></div><div class="ttdeci">@ NONE</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00012">structure.h:12</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="structure_8h_source.html#l00061">Joueur::inventaire</a>, <a class="el" href="structure_8h_source.html#l00101">Jeu::j</a>, <a class="el" href="structure_8h_source.html#l00056">Item::name</a>, <a class="el" href="structure_8h_source.html#l00012">NONE</a>, and <a class="el" href="structure_8h_source.html#l00055">Item::type</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00229">healthPotionEvent()</a>, <a class="el" href="event_8c_source.html#l00237">medikitEvent()</a>, and <a class="el" href="event_8c_source.html#l00250">milkPotionEvent()</a>.</p>
 
 </div>
 </div>
@@ -225,16 +309,15 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00244">244</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                              {</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a>--;</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;}</div>
-<div class="ttc" id="astruct_jeu_html_a9699ce0488a9a79d352a9d41944c0cf0"><div class="ttname"><a href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">Jeu::j</a></div><div class="ttdeci">Joueur j</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00101">structure.h:101</a></div></div>
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00245">245</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                              {</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a>--;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;}</div>
 <div class="ttc" id="astruct_joueur_html_a7979ab6409fe12bf34cbce958f1c29ee"><div class="ttname"><a href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">Joueur::pvHealth</a></div><div class="ttdeci">int pvHealth</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00060">structure.h:60</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="structure_8h_source.html#l00101">Jeu::j</a>, and <a class="el" href="structure_8h_source.html#l00060">Joueur::pvHealth</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00263">verifEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00282">verifEvent()</a>.</p>
 
 </div>
 </div>
@@ -254,7 +337,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Permet de capturer une touche utiliser par l'utilisateur et interprète cette entrée en fonction de l'état du joueur fourni et qui renvoie la touche pressée. </p>
+<p>Permet de capturer une touche utilisée par l'utilisateur et interprète cette entrée en fonction de l'état du joueur fourni et qui renvoie la touche pressée. </p>
 <dl class="section author"><dt>Author</dt><dd>Paul Le Blanc </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>(January 9th, 2024 5:00 PM) </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -265,164 +348,164 @@ Variables</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>caractère (touche pressée) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00010">10</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                                      {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  <span class="keyword">struct </span>termios tty_opts_backup, tty_opts_raw;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  <span class="keywordtype">char</span> c;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  <span class="keywordtype">int</span> pastermine=1;<span class="comment">//par défaut on le met à vrai</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00011">11</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                                      {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;  <span class="keyword">struct </span>termios tty_opts_backup, tty_opts_raw;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;  <span class="keywordtype">char</span> c;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;  <span class="keywordtype">int</span> pastermine=1;<span class="comment">//par défaut on le met à vrai</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <span class="comment">// Back up current TTY settings</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  tcgetattr(STDIN_FILENO, &amp;tty_opts_backup);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <span class="comment">// Change TTY settings mode</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  cfmakeraw(&amp;tty_opts_raw);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  tcsetattr(STDIN_FILENO, TCSANOW, &amp;tty_opts_raw);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  <span class="keywordflow">while</span> (pastermine) {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;  <span class="comment">// Back up current TTY settings</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;  tcgetattr(STDIN_FILENO, &amp;tty_opts_backup);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;  <span class="comment">// Change TTY settings mode</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;  cfmakeraw(&amp;tty_opts_raw);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;  tcsetattr(STDIN_FILENO, TCSANOW, &amp;tty_opts_raw);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;  <span class="keywordflow">while</span> (pastermine) {</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    c = getchar();</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">if</span> (etatJoueur == <a class="code" href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7a5f7b22c27596f08e8dd6396dabb57354">ETAT_ENTER</a>){</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;      <span class="keywordflow">switch</span>(c){</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af4bced5cf8ed55746d4b5d34f9a0fe39">ENTER</a>:</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;          pastermine =0;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;      }</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span> (etatJoueur == <a class="code" href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7abfbbf45475211f0de8026a18b0f7331b">ETAT_OPTION</a>) {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;      <span class="keywordflow">switch</span> (c) {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#acd0f9b88c35112b35f67d3cde4b2365c">HAUT</a>:</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;          pastermine = 0;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#abd7bcdd3b14eec4414469f88f2bd8f12">BAS</a>:</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;          pastermine = 0;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af4bced5cf8ed55746d4b5d34f9a0fe39">ENTER</a>:</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;          pastermine = 0;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af625d3f3bc022848a558f2b18def5b15">DROITE</a>:</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;          pastermine = 0;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af07f8bf974fdf76afd17f2b97ac15a22">GAUCHE</a>:</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;          pastermine = 0;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;      }</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    }</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    c = getchar();</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">if</span> (etatJoueur == <a class="code" href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7a5f7b22c27596f08e8dd6396dabb57354">ETAT_ENTER</a>){</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;      <span class="keywordflow">switch</span>(c){</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af4bced5cf8ed55746d4b5d34f9a0fe39">ENTER</a>:</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;          pastermine =0;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;      }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">if</span> (etatJoueur == <a class="code" href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7abfbbf45475211f0de8026a18b0f7331b">ETAT_OPTION</a>) {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;      <span class="keywordflow">switch</span> (c) {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#acd0f9b88c35112b35f67d3cde4b2365c">HAUT</a>:</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;          pastermine = 0;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#abd7bcdd3b14eec4414469f88f2bd8f12">BAS</a>:</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;          pastermine = 0;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af4bced5cf8ed55746d4b5d34f9a0fe39">ENTER</a>:</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;          pastermine = 0;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af625d3f3bc022848a558f2b18def5b15">DROITE</a>:</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;          pastermine = 0;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af07f8bf974fdf76afd17f2b97ac15a22">GAUCHE</a>:</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;          pastermine = 0;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;      }</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">if</span> (etatJoueur == <a class="code" href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7a62dbc8350c17b44d1269eb737f9c641e">ETAT_MENU</a>) {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;      <span class="keywordflow">switch</span> (c) {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#acd0f9b88c35112b35f67d3cde4b2365c">HAUT</a>:</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;          pastermine = 0;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#abd7bcdd3b14eec4414469f88f2bd8f12">BAS</a>:</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;          pastermine = 0;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af4bced5cf8ed55746d4b5d34f9a0fe39">ENTER</a>:</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;          pastermine = 0;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;      }</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    </div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">if</span> (etatJoueur == <a class="code" href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7a323d887ae4e21ac490ed9f8e1d074a8f">ETAT_DRUNK</a>) {</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;      <span class="keywordflow">switch</span> (c) {</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#acd0f9b88c35112b35f67d3cde4b2365c">HAUT</a>:</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;          c = <a class="code" href="structure_8h.html#abd7bcdd3b14eec4414469f88f2bd8f12">BAS</a>;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;          pastermine = 0;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af07f8bf974fdf76afd17f2b97ac15a22">GAUCHE</a>:</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;          c = <a class="code" href="structure_8h.html#af625d3f3bc022848a558f2b18def5b15">DROITE</a>;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;          pastermine = 0;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af625d3f3bc022848a558f2b18def5b15">DROITE</a>:</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;          c = <a class="code" href="structure_8h.html#af07f8bf974fdf76afd17f2b97ac15a22">GAUCHE</a>;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;          pastermine = 0;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#abd7bcdd3b14eec4414469f88f2bd8f12">BAS</a>:</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;          c = <a class="code" href="structure_8h.html#acd0f9b88c35112b35f67d3cde4b2365c">HAUT</a>;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;          pastermine = 0;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a2fa32b401af0dac806964c33295faacc">HOTBAR1</a>: </div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;          pastermine=0;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a160a9e24d7a0bce29d88e1f6ef86c26f">HOTBAR2</a>:</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;          pastermine=0;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a0ef94a4e07fa4407f55778964f0e864e">HOTBAR3</a>:</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;          pastermine=0;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#adc2faaa30bcb43756ace6168ced57c70">HOTBAR4</a>:</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;          pastermine=0;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a844a6af4e2b84bc28cbed7b62ea4c070">HOTBAR5</a>:</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;          pastermine=0;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;          <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;      }</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    }</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    </div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="keywordflow">switch</span>(c){</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#acd0f9b88c35112b35f67d3cde4b2365c">HAUT</a>:</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        pastermine=0;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af07f8bf974fdf76afd17f2b97ac15a22">GAUCHE</a>:</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        pastermine=0;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af625d3f3bc022848a558f2b18def5b15">DROITE</a>:</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        pastermine=0;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#abd7bcdd3b14eec4414469f88f2bd8f12">BAS</a>:</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        pastermine=0;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a2fa32b401af0dac806964c33295faacc">HOTBAR1</a>:</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        pastermine=0;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a160a9e24d7a0bce29d88e1f6ef86c26f">HOTBAR2</a>:</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        pastermine=0;</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a0ef94a4e07fa4407f55778964f0e864e">HOTBAR3</a>:</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        pastermine=0;</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#adc2faaa30bcb43756ace6168ced57c70">HOTBAR4</a>:</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        pastermine=0;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a844a6af4e2b84bc28cbed7b62ea4c070">HOTBAR5</a>:</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        pastermine=0;</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;      <span class="keywordflow">case</span> 97:</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        printf(<span class="stringliteral">&quot;\n Vous avez tapé la lettre %c qui permet de quitter le programme!&quot;</span>,c);</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;      </div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="comment">/* NE PAS OUBLIER : sinon on ne peut plus écrire dans le terminal */</span></div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="comment">// Restore previous TTY settings</span></div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        tcsetattr(STDIN_FILENO, TCSANOW, &amp;tty_opts_backup);</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        printf(<span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        exit(0);</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;      <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        printf(<span class="stringliteral">&quot;NON prise en compte\r\n&quot;</span>);</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    }</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;  }</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">if</span> (etatJoueur == <a class="code" href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7a62dbc8350c17b44d1269eb737f9c641e">ETAT_MENU</a>) {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;      <span class="keywordflow">switch</span> (c) {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#acd0f9b88c35112b35f67d3cde4b2365c">HAUT</a>:</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;          pastermine = 0;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#abd7bcdd3b14eec4414469f88f2bd8f12">BAS</a>:</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;          pastermine = 0;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af4bced5cf8ed55746d4b5d34f9a0fe39">ENTER</a>:</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;          pastermine = 0;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160; </div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;      }</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordflow">if</span> (etatJoueur == <a class="code" href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7a323d887ae4e21ac490ed9f8e1d074a8f">ETAT_DRUNK</a>) {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;      <span class="keywordflow">switch</span> (c) {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#acd0f9b88c35112b35f67d3cde4b2365c">HAUT</a>:</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;          c = <a class="code" href="structure_8h.html#abd7bcdd3b14eec4414469f88f2bd8f12">BAS</a>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;          pastermine = 0;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af07f8bf974fdf76afd17f2b97ac15a22">GAUCHE</a>:</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;          c = <a class="code" href="structure_8h.html#af625d3f3bc022848a558f2b18def5b15">DROITE</a>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;          pastermine = 0;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af625d3f3bc022848a558f2b18def5b15">DROITE</a>:</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;          c = <a class="code" href="structure_8h.html#af07f8bf974fdf76afd17f2b97ac15a22">GAUCHE</a>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;          pastermine = 0;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#abd7bcdd3b14eec4414469f88f2bd8f12">BAS</a>:</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;          c = <a class="code" href="structure_8h.html#acd0f9b88c35112b35f67d3cde4b2365c">HAUT</a>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;          pastermine = 0;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a2fa32b401af0dac806964c33295faacc">HOTBAR1</a>: </div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;          pastermine=0;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a160a9e24d7a0bce29d88e1f6ef86c26f">HOTBAR2</a>:</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;          pastermine=0;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a0ef94a4e07fa4407f55778964f0e864e">HOTBAR3</a>:</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;          pastermine=0;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#adc2faaa30bcb43756ace6168ced57c70">HOTBAR4</a>:</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;          pastermine=0;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a844a6af4e2b84bc28cbed7b62ea4c070">HOTBAR5</a>:</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;          pastermine=0;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;          <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;      }</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    }</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordflow">switch</span>(c){</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#acd0f9b88c35112b35f67d3cde4b2365c">HAUT</a>:</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        pastermine=0;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af07f8bf974fdf76afd17f2b97ac15a22">GAUCHE</a>:</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        pastermine=0;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af625d3f3bc022848a558f2b18def5b15">DROITE</a>:</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        pastermine=0;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#abd7bcdd3b14eec4414469f88f2bd8f12">BAS</a>:</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        pastermine=0;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a2fa32b401af0dac806964c33295faacc">HOTBAR1</a>:</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        pastermine=0;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a160a9e24d7a0bce29d88e1f6ef86c26f">HOTBAR2</a>:</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        pastermine=0;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a0ef94a4e07fa4407f55778964f0e864e">HOTBAR3</a>:</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        pastermine=0;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#adc2faaa30bcb43756ace6168ced57c70">HOTBAR4</a>:</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        pastermine=0;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;      <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a844a6af4e2b84bc28cbed7b62ea4c070">HOTBAR5</a>:</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        pastermine=0;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;      <span class="keywordflow">case</span> 97:</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        printf(<span class="stringliteral">&quot;\n Vous avez tapé la lettre %c qui permet de quitter le programme!&quot;</span>,c);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;      </div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="comment">/* NE PAS OUBLIER : sinon on ne peut plus écrire dans le terminal */</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <span class="comment">// Restore previous TTY settings</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        tcsetattr(STDIN_FILENO, TCSANOW, &amp;tty_opts_backup);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        printf(<span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        exit(0);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;      <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        printf(<span class="stringliteral">&quot;NON prise en compte\r\n&quot;</span>);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    }</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;  }</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160; </div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;  <span class="comment">/* NE PAS OUBLIER : sinon on ne peut plus écrire dans le terminal */</span></div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  <span class="comment">// Restore previous TTY settings</span></div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  tcsetattr(STDIN_FILENO, TCSANOW, &amp;tty_opts_backup);</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160; </div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;  <span class="keywordflow">return</span> c;</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160; </div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;}</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160; </div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;  <span class="comment">/* NE PAS OUBLIER : sinon on ne peut plus écrire dans le terminal */</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;  <span class="comment">// Restore previous TTY settings</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;  tcsetattr(STDIN_FILENO, TCSANOW, &amp;tty_opts_backup);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160; </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;  <span class="keywordflow">return</span> c;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160; </div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;}</div>
 <div class="ttc" id="astructure_8h_html_a0ef94a4e07fa4407f55778964f0e864e"><div class="ttname"><a href="structure_8h.html#a0ef94a4e07fa4407f55778964f0e864e">HOTBAR3</a></div><div class="ttdeci">#define HOTBAR3</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00031">structure.h:31</a></div></div>
 <div class="ttc" id="astructure_8h_html_a160a9e24d7a0bce29d88e1f6ef86c26f"><div class="ttname"><a href="structure_8h.html#a160a9e24d7a0bce29d88e1f6ef86c26f">HOTBAR2</a></div><div class="ttdeci">#define HOTBAR2</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00030">structure.h:30</a></div></div>
 <div class="ttc" id="astructure_8h_html_a2fa32b401af0dac806964c33295faacc"><div class="ttname"><a href="structure_8h.html#a2fa32b401af0dac806964c33295faacc">HOTBAR1</a></div><div class="ttdeci">#define HOTBAR1</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00029">structure.h:29</a></div></div>
@@ -463,12 +546,64 @@ Variables</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd>Paul Le Blanc </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>(January 9th, 2024 5:00 PM) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00005">5</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;                   {</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;  <span class="keywordtype">char</span> c;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  <span class="keywordflow">while</span> (((c = getchar()) != <span class="charliteral">&#39;\n&#39;</span>) &amp;&amp; (c != EOF));</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00006">6</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;                   {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  <span class="keywordtype">char</span> c;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;  <span class="keywordflow">while</span> (((c = getchar()) != <span class="charliteral">&#39;\n&#39;</span>) &amp;&amp; (c != EOF));</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="a16ef38eeab66e5f3e2ca1a2cbddc0849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16ef38eeab66e5f3e2ca1a2cbddc0849">&#9670;&nbsp;</a></span>eventJoueur()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void eventJoueur </td>
+          <td>(</td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>typeEvent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="struct_joueur.html">Joueur</a> *&#160;</td>
+          <td class="paramname"><em>j</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Effectue l'event en vérifiant son type et l'état du joueur (souvent le poison ou le feu) </p>
+<dl class="section author"><dt>Author</dt><dd>Paul Brechenmacher </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>(January 7th, 2024 9:17 AM) </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">j</td><td>Pointeur du <a class="el" href="struct_joueur.html">Joueur</a> contenant les caractéristiques et les états du joueur </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">typeEvent</td><td>Type de l'event à effectuer et à vérifier </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">j</td><td><a class="el" href="struct_joueur.html">Joueur</a> modifié avec un nouvel état (souvent le poison ou le feu) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00386">386</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;                                          {</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    <a class="code" href="event_8c.html#ac5a1122d4b00e56bcd3aef70a905bdad">verifEtatEvent</a>(j,typeEvent);</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    <a class="code" href="event_8c.html#a0f7e361193666f7932025639f310b5b6">verifPoisonFeu</a>(j);</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;}</div>
+<div class="ttc" id="aevent_8c_html_a0f7e361193666f7932025639f310b5b6"><div class="ttname"><a href="event_8c.html#a0f7e361193666f7932025639f310b5b6">verifPoisonFeu</a></div><div class="ttdeci">void verifPoisonFeu(Joueur *j)</div><div class="ttdoc">Permet d'effectuer les évenements poison et feu en influant sur la vie du joueur.</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00359">event.c:359</a></div></div>
+<div class="ttc" id="aevent_8c_html_ac5a1122d4b00e56bcd3aef70a905bdad"><div class="ttname"><a href="event_8c.html#ac5a1122d4b00e56bcd3aef70a905bdad">verifEtatEvent</a></div><div class="ttdeci">void verifEtatEvent(Joueur *j, int *typeEvent)</div><div class="ttdoc">Vérifie l'état de l'évenement pour l'affichage et la fin du poison et du feu.</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00374">event.c:374</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="event_8c_source.html#l00374">verifEtatEvent()</a>, and <a class="el" href="event_8c_source.html#l00359">verifPoisonFeu()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="game_8c_source.html#l00056">jouerMaze()</a>.</p>
+
 </div>
 </div>
 <a id="aa44b44ec95de6ba2f983d27c17537a70"></a>
@@ -499,32 +634,32 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00455">455</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;                         {</div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;    <span class="keywordtype">int</span> x = 6;</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    <span class="keywordtype">int</span>** tabAriane = NULL;</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    <span class="keywordtype">int</span> cEnd,lEnd;</div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160; </div>
-<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    <a class="code" href="generation_8c.html#a21dea88c24475e779e3f5c5b6bfe1d93">allouerTab2</a>(&amp;tabAriane,jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>);</div>
-<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;    <a class="code" href="event_8c.html#a55730a438cae73d73dc90f5bc4b938a3">naviguerArbreChemins</a>(jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#a4b9666e8fa90a6fced3987479ba98e29">arbreCheminDepart</a>,jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>,&amp;tabAriane,&amp;x);</div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    <a class="code" href="event_8c.html#a2ab851a770ef83fcd2527fb471fc9250">findEnd</a>(tabAriane,&amp;lEnd,&amp;cEnd,jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>);</div>
-<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;    <a class="code" href="structnode.html">arbreChemins</a> aEnd = malloc(<span class="keyword">sizeof</span>(<a class="code" href="structnode.html">node</a>*));</div>
-<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;    <a class="code" href="event_8c.html#aee6d0253a37443e5397dbeb58085ad55">findEndArbre</a>(lEnd,cEnd,jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#a4b9666e8fa90a6fced3987479ba98e29">arbreCheminDepart</a>,&amp;aEnd);</div>
-<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;    <a class="code" href="event_8c.html#afd22406001991124b16eb2684528c7c0">remonterArbre</a>(aEnd,tabAriane,jeu);</div>
-<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160; </div>
-<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;}</div>
-<div class="ttc" id="aevent_8c_html_a2ab851a770ef83fcd2527fb471fc9250"><div class="ttname"><a href="event_8c.html#a2ab851a770ef83fcd2527fb471fc9250">findEnd</a></div><div class="ttdeci">void findEnd(int **tabAriane, int *lEnd, int *cEnd, int taille)</div><div class="ttdoc">Permet de trouver la sortie du tabArianne.</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00406">event.c:406</a></div></div>
-<div class="ttc" id="aevent_8c_html_a55730a438cae73d73dc90f5bc4b938a3"><div class="ttname"><a href="event_8c.html#a55730a438cae73d73dc90f5bc4b938a3">naviguerArbreChemins</a></div><div class="ttdeci">void naviguerArbreChemins(arbreChemins a, Maze maze, int ***tabAriane, int *x)</div><div class="ttdoc">(Algo A*) Permet naviguer dans l'arbre et d'incrémenter la valeur x à chaque case et de placer la val...</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00393">event.c:393</a></div></div>
-<div class="ttc" id="aevent_8c_html_aee6d0253a37443e5397dbeb58085ad55"><div class="ttname"><a href="event_8c.html#aee6d0253a37443e5397dbeb58085ad55">findEndArbre</a></div><div class="ttdeci">void findEndArbre(int lEnd, int cEnd, arbreChemins aDebut, arbreChemins *aEnd)</div><div class="ttdoc">Permet de trouver la sortie dans l'arbre des chemins.</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00416">event.c:416</a></div></div>
-<div class="ttc" id="aevent_8c_html_afd22406001991124b16eb2684528c7c0"><div class="ttname"><a href="event_8c.html#afd22406001991124b16eb2684528c7c0">remonterArbre</a></div><div class="ttdeci">void remonterArbre(arbreChemins a, int **tabAriane, Jeu *jeu)</div><div class="ttdoc">Permet de trouver le chemins le plus court (algo A*), en prenant toujours la plus petite valeur aux a...</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00425">event.c:425</a></div></div>
-<div class="ttc" id="ageneration_8c_html_a21dea88c24475e779e3f5c5b6bfe1d93"><div class="ttname"><a href="generation_8c.html#a21dea88c24475e779e3f5c5b6bfe1d93">allouerTab2</a></div><div class="ttdeci">void allouerTab2(int ***tab, int taille)</div><div class="ttdoc">Alloue les tableaux 2D.</div><div class="ttdef"><b>Definition:</b> <a href="generation_8c_source.html#l00174">generation.c:174</a></div></div>
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00474">474</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;                         {</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;    <span class="keywordtype">int</span> x = 6;</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;    <span class="keywordtype">int</span>** tabAriane = NULL;</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;    <span class="keywordtype">int</span> cEnd,lEnd;</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160; </div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;    <a class="code" href="generation_8c.html#a21dea88c24475e779e3f5c5b6bfe1d93">allouerTab2</a>(&amp;tabAriane,jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>);</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;    <a class="code" href="event_8c.html#a55730a438cae73d73dc90f5bc4b938a3">naviguerArbreChemins</a>(jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#a4b9666e8fa90a6fced3987479ba98e29">arbreCheminDepart</a>,jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>,&amp;tabAriane,&amp;x);</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;    <a class="code" href="event_8c.html#a2ab851a770ef83fcd2527fb471fc9250">findEnd</a>(tabAriane,&amp;lEnd,&amp;cEnd,jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>);</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;    <a class="code" href="structnode.html">arbreChemins</a> aEnd = malloc(<span class="keyword">sizeof</span>(<a class="code" href="structnode.html">node</a>*));</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;    <a class="code" href="event_8c.html#aee6d0253a37443e5397dbeb58085ad55">findEndArbre</a>(lEnd,cEnd,jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#a4b9666e8fa90a6fced3987479ba98e29">arbreCheminDepart</a>,&amp;aEnd);</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;    <a class="code" href="event_8c.html#afd22406001991124b16eb2684528c7c0">remonterArbre</a>(aEnd,tabAriane,jeu);</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160; </div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;}</div>
+<div class="ttc" id="aevent_8c_html_a2ab851a770ef83fcd2527fb471fc9250"><div class="ttname"><a href="event_8c.html#a2ab851a770ef83fcd2527fb471fc9250">findEnd</a></div><div class="ttdeci">void findEnd(int **tabAriane, int *lEnd, int *cEnd, int taille)</div><div class="ttdoc">Permet de trouver la sortie du tabArianne.</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00425">event.c:425</a></div></div>
+<div class="ttc" id="aevent_8c_html_a55730a438cae73d73dc90f5bc4b938a3"><div class="ttname"><a href="event_8c.html#a55730a438cae73d73dc90f5bc4b938a3">naviguerArbreChemins</a></div><div class="ttdeci">void naviguerArbreChemins(arbreChemins a, Maze maze, int ***tabAriane, int *x)</div><div class="ttdoc">(Algo A*) Permet naviguer dans l'arbre et d'incrémenter la valeur x à chaque case et de placer la val...</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00412">event.c:412</a></div></div>
+<div class="ttc" id="aevent_8c_html_aee6d0253a37443e5397dbeb58085ad55"><div class="ttname"><a href="event_8c.html#aee6d0253a37443e5397dbeb58085ad55">findEndArbre</a></div><div class="ttdeci">void findEndArbre(int lEnd, int cEnd, arbreChemins aDebut, arbreChemins *aEnd)</div><div class="ttdoc">Permet de trouver la sortie dans l'arbre des chemins.</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00435">event.c:435</a></div></div>
+<div class="ttc" id="aevent_8c_html_afd22406001991124b16eb2684528c7c0"><div class="ttname"><a href="event_8c.html#afd22406001991124b16eb2684528c7c0">remonterArbre</a></div><div class="ttdeci">void remonterArbre(arbreChemins a, int **tabAriane, Jeu *jeu)</div><div class="ttdoc">Permet de trouver le chemins le plus court (algo A*), en prenant toujours la plus petite valeur aux a...</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00444">event.c:444</a></div></div>
+<div class="ttc" id="ageneration_8c_html_a21dea88c24475e779e3f5c5b6bfe1d93"><div class="ttname"><a href="generation_8c.html#a21dea88c24475e779e3f5c5b6bfe1d93">allouerTab2</a></div><div class="ttdeci">void allouerTab2(int ***tab, int taille)</div><div class="ttdoc">Alloue les tableaux 2D.</div><div class="ttdef"><b>Definition:</b> <a href="generation_8c_source.html#l00105">generation.c:105</a></div></div>
 <div class="ttc" id="astruct_jeu_html_aa8994b7385a62a3123ecdd7c29be2792"><div class="ttname"><a href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">Jeu::maze</a></div><div class="ttdeci">Maze maze</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00106">structure.h:106</a></div></div>
 <div class="ttc" id="astruct_maze_html_a4b9666e8fa90a6fced3987479ba98e29"><div class="ttname"><a href="struct_maze.html#a4b9666e8fa90a6fced3987479ba98e29">Maze::arbreCheminDepart</a></div><div class="ttdeci">arbreChemins arbreCheminDepart</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00086">structure.h:86</a></div></div>
 <div class="ttc" id="astructnode_html"><div class="ttname"><a href="structnode.html">node</a></div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00072">structure.h:72</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="generation_8c_source.html#l00174">allouerTab2()</a>, <a class="el" href="structure_8h_source.html#l00086">Maze::arbreCheminDepart</a>, <a class="el" href="event_8c_source.html#l00406">findEnd()</a>, <a class="el" href="event_8c_source.html#l00416">findEndArbre()</a>, <a class="el" href="structure_8h_source.html#l00106">Jeu::maze</a>, <a class="el" href="event_8c_source.html#l00393">naviguerArbreChemins()</a>, <a class="el" href="event_8c_source.html#l00425">remonterArbre()</a>, and <a class="el" href="structure_8h_source.html#l00083">Maze::sizeMaze</a>.</p>
+<p class="reference">References <a class="el" href="generation_8c_source.html#l00105">allouerTab2()</a>, <a class="el" href="structure_8h_source.html#l00086">Maze::arbreCheminDepart</a>, <a class="el" href="event_8c_source.html#l00425">findEnd()</a>, <a class="el" href="event_8c_source.html#l00435">findEndArbre()</a>, <a class="el" href="structure_8h_source.html#l00106">Jeu::maze</a>, <a class="el" href="event_8c_source.html#l00412">naviguerArbreChemins()</a>, <a class="el" href="event_8c_source.html#l00444">remonterArbre()</a>, and <a class="el" href="structure_8h_source.html#l00083">Maze::sizeMaze</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00263">verifEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00282">verifEvent()</a>.</p>
 
 </div>
 </div>
@@ -581,19 +716,19 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00406">406</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;                                                            { </div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; taille; i++) {</div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; taille; j++) {</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;      <span class="keywordflow">if</span>(tabAriane[i][j] == taille*taille){</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        *lEnd = i;</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        *cEnd = j;</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;      }</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;     }</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;  }</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00425">425</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;                                                            { </div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;  <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; taille; i++) {</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> j = 0; j &lt; taille; j++) {</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;      <span class="keywordflow">if</span>(tabAriane[i][j] == taille*taille){</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        *lEnd = i;</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;        *cEnd = j;</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;      }</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;     }</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;  }</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00455">filAriane2()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00474">filAriane2()</a>.</p>
 
 </div>
 </div>
@@ -649,22 +784,22 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00416">416</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;                                                                            {</div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    <span class="keywordflow">if</span>(aDebut-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0] == lEnd &amp;&amp; aDebut-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1] == cEnd){</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;      (*aEnd) = aDebut;</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    }</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> n = 0; n &lt; aDebut-&gt;<a class="code" href="structnode.html#a2c22fb242025e200ae923fcd076da684">nbFils</a>; n++){</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        <a class="code" href="event_8c.html#aee6d0253a37443e5397dbeb58085ad55">findEndArbre</a>(lEnd,cEnd,aDebut-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[n],aEnd);</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    }</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00435">435</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;                                                                            {</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    <span class="keywordflow">if</span>(aDebut-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0] == lEnd &amp;&amp; aDebut-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1] == cEnd){</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;      (*aEnd) = aDebut;</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;    }</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> n = 0; n &lt; aDebut-&gt;<a class="code" href="structnode.html#a2c22fb242025e200ae923fcd076da684">nbFils</a>; n++){</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;        <a class="code" href="event_8c.html#aee6d0253a37443e5397dbeb58085ad55">findEndArbre</a>(lEnd,cEnd,aDebut-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[n],aEnd);</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;    }</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;}</div>
 <div class="ttc" id="astructnode_html_a2bd2f49b010b4d8382af0cd01a86f420"><div class="ttname"><a href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">node::fils</a></div><div class="ttdeci">struct node ** fils</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00076">structure.h:76</a></div></div>
 <div class="ttc" id="astructnode_html_a2c22fb242025e200ae923fcd076da684"><div class="ttname"><a href="structnode.html#a2c22fb242025e200ae923fcd076da684">node::nbFils</a></div><div class="ttdeci">int nbFils</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00074">structure.h:74</a></div></div>
 <div class="ttc" id="astructnode_html_abc81362e66bc009245109fbec8f4cb07"><div class="ttname"><a href="structnode.html#abc81362e66bc009245109fbec8f4cb07">node::positions</a></div><div class="ttdeci">int positions[2]</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00073">structure.h:73</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="structure_8h_source.html#l00076">node::fils</a>, <a class="el" href="structure_8h_source.html#l00074">node::nbFils</a>, and <a class="el" href="structure_8h_source.html#l00073">node::positions</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00455">filAriane2()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00474">filAriane2()</a>.</p>
 
 </div>
 </div>
@@ -695,20 +830,20 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00228">228</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                                {</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a> &gt; 8){</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        <a class="code" href="event_8c.html#aac4e98a727d0f8574e0424e2d72961d6">ajouterItemInventaire</a>(jeu,<a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22ae3cc1f58e26cf5e3a7d8eeffa9da0d5a">HEALTH</a>,<span class="stringliteral">&quot;Health Potion&quot;</span>);</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    }<span class="keywordflow">else</span>{</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a> = jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a> +2;</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    }</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;}</div>
-<div class="ttc" id="aevent_8c_html_aac4e98a727d0f8574e0424e2d72961d6"><div class="ttname"><a href="event_8c.html#aac4e98a727d0f8574e0424e2d72961d6">ajouterItemInventaire</a></div><div class="ttdeci">void ajouterItemInventaire(Jeu *jeu, int type, char *name)</div><div class="ttdoc">Ajoute un objet dans l'inventaire du joueur.</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00213">event.c:213</a></div></div>
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00229">229</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                                {</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a> &gt; 8){</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        <a class="code" href="event_8c.html#aac4e98a727d0f8574e0424e2d72961d6">ajouterItemInventaire</a>(jeu,<a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22ae3cc1f58e26cf5e3a7d8eeffa9da0d5a">HEALTH</a>,<span class="stringliteral">&quot;Health Potion&quot;</span>);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a> = jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a> +2;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    }</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;}</div>
+<div class="ttc" id="aevent_8c_html_aac4e98a727d0f8574e0424e2d72961d6"><div class="ttname"><a href="event_8c.html#aac4e98a727d0f8574e0424e2d72961d6">ajouterItemInventaire</a></div><div class="ttdeci">void ajouterItemInventaire(Jeu *jeu, int type, char *name)</div><div class="ttdoc">Ajoute un objet dans l'inventaire du joueur.</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00214">event.c:214</a></div></div>
 <div class="ttc" id="astructure_8h_html_aa8c0b30d56cd82613629274f264dff22ae3cc1f58e26cf5e3a7d8eeffa9da0d5a"><div class="ttname"><a href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22ae3cc1f58e26cf5e3a7d8eeffa9da0d5a">HEALTH</a></div><div class="ttdeci">@ HEALTH</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00012">structure.h:12</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="event_8c_source.html#l00213">ajouterItemInventaire()</a>, <a class="el" href="structure_8h_source.html#l00012">HEALTH</a>, <a class="el" href="structure_8h_source.html#l00101">Jeu::j</a>, and <a class="el" href="structure_8h_source.html#l00060">Joueur::pvHealth</a>.</p>
+<p class="reference">References <a class="el" href="event_8c_source.html#l00214">ajouterItemInventaire()</a>, <a class="el" href="structure_8h_source.html#l00012">HEALTH</a>, <a class="el" href="structure_8h_source.html#l00101">Jeu::j</a>, and <a class="el" href="structure_8h_source.html#l00060">Joueur::pvHealth</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00263">verifEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00282">verifEvent()</a>.</p>
 
 </div>
 </div>
@@ -754,24 +889,24 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00186">186</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                                          {</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <span class="keywordtype">char</span> fichiers[40];</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    snprintf(fichiers, <span class="keyword">sizeof</span>(fichiers), <span class="stringliteral">&quot;./out/megaMazeCSV/maze%d%d.csv&quot;</span>,i,j);</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    FILE *fichier = fopen(fichiers, <span class="stringliteral">&quot;w&quot;</span>);</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160; </div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="keywordflow">if</span> (fichier == NULL) {</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        printf(<span class="stringliteral">&quot;Impossible d&#39;ouvrir le fichier&quot;</span>);</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    }</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;maze-&gt;<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>;i++){</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0;j&lt;maze-&gt;<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>;j++){</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        fprintf(fichier,<span class="stringliteral">&quot;%d &quot;</span>,maze-&gt;<a class="code" href="struct_maze.html#ac4640021749af6020a21b749e4f4416b">tabMaze</a>[i][j]);</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;      }</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      fprintf(fichier, <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    }</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160; </div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    fclose(fichier);</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00187">187</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                                          {</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keywordtype">char</span> fichiers[40];</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    snprintf(fichiers, <span class="keyword">sizeof</span>(fichiers), <span class="stringliteral">&quot;./out/megaMazeCSV/maze%d%d.csv&quot;</span>,i,j);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    FILE *fichier = fopen(fichiers, <span class="stringliteral">&quot;w&quot;</span>);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160; </div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordflow">if</span> (fichier == NULL) {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        printf(<span class="stringliteral">&quot;Impossible d&#39;ouvrir le fichier&quot;</span>);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    }</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;maze-&gt;<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>;i++){</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0;j&lt;maze-&gt;<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>;j++){</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        fprintf(fichier,<span class="stringliteral">&quot;%d &quot;</span>,maze-&gt;<a class="code" href="struct_maze.html#ac4640021749af6020a21b749e4f4416b">tabMaze</a>[i][j]);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;      }</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;      fprintf(fichier, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    }</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160; </div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    fclose(fichier);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="structure_8h_source.html#l00083">Maze::sizeMaze</a>, and <a class="el" href="structure_8h_source.html#l00084">Maze::tabMaze</a>.</p>
 
@@ -803,22 +938,22 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00169">169</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                         {</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    FILE *fichier = fopen(<span class="stringliteral">&quot;out/maze.csv&quot;</span>, <span class="stringliteral">&quot;w&quot;</span>);</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160; </div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="keywordflow">if</span> (fichier == NULL) {</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        printf(<span class="stringliteral">&quot;Impossible d&#39;ouvrir le fichier&quot;</span>);</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    }</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;(maze-&gt;<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>);i++){</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0;j&lt;(maze-&gt;<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>);j++){</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        fprintf(fichier,<span class="stringliteral">&quot;%d &quot;</span>,maze-&gt;<a class="code" href="struct_maze.html#ac4640021749af6020a21b749e4f4416b">tabMaze</a>[i][j]);</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;      }</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;      fprintf(fichier, <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    }</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160; </div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    fclose(fichier);</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00170">170</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                         {</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    FILE *fichier = fopen(<span class="stringliteral">&quot;out/maze.csv&quot;</span>, <span class="stringliteral">&quot;w&quot;</span>);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160; </div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordflow">if</span> (fichier == NULL) {</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        printf(<span class="stringliteral">&quot;Impossible d&#39;ouvrir le fichier&quot;</span>);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    }</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i=0;i&lt;(maze-&gt;<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>);i++){</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j=0;j&lt;(maze-&gt;<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>);j++){</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        fprintf(fichier,<span class="stringliteral">&quot;%d &quot;</span>,maze-&gt;<a class="code" href="struct_maze.html#ac4640021749af6020a21b749e4f4416b">tabMaze</a>[i][j]);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;      }</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;      fprintf(fichier, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    }</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160; </div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    fclose(fichier);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;}</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="structure_8h_source.html#l00083">Maze::sizeMaze</a>, and <a class="el" href="structure_8h_source.html#l00084">Maze::tabMaze</a>.</p>
 
@@ -851,19 +986,19 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00236">236</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                           {</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a> &gt; 5){</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        <a class="code" href="event_8c.html#aac4e98a727d0f8574e0424e2d72961d6">ajouterItemInventaire</a>(jeu,<a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22a4990e396000033a0134a65dcacc671a8">MEDIKIT</a>,<span class="stringliteral">&quot;Medikit&quot;</span>);</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    }<span class="keywordflow">else</span>{</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a> = jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a> +5;</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    }</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00237">237</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                           {</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a> &gt; 5){</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        <a class="code" href="event_8c.html#aac4e98a727d0f8574e0424e2d72961d6">ajouterItemInventaire</a>(jeu,<a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22a4990e396000033a0134a65dcacc671a8">MEDIKIT</a>,<span class="stringliteral">&quot;Medikit&quot;</span>);</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a> = jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a> +5;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    }</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;}</div>
 <div class="ttc" id="astructure_8h_html_aa8c0b30d56cd82613629274f264dff22a4990e396000033a0134a65dcacc671a8"><div class="ttname"><a href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22a4990e396000033a0134a65dcacc671a8">MEDIKIT</a></div><div class="ttdeci">@ MEDIKIT</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00012">structure.h:12</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="event_8c_source.html#l00213">ajouterItemInventaire()</a>, <a class="el" href="structure_8h_source.html#l00101">Jeu::j</a>, <a class="el" href="structure_8h_source.html#l00012">MEDIKIT</a>, and <a class="el" href="structure_8h_source.html#l00060">Joueur::pvHealth</a>.</p>
+<p class="reference">References <a class="el" href="event_8c_source.html#l00214">ajouterItemInventaire()</a>, <a class="el" href="structure_8h_source.html#l00101">Jeu::j</a>, <a class="el" href="structure_8h_source.html#l00012">MEDIKIT</a>, and <a class="el" href="structure_8h_source.html#l00060">Joueur::pvHealth</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00263">verifEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00282">verifEvent()</a>.</p>
 
 </div>
 </div>
@@ -894,20 +1029,20 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00249">249</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                              {</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#afac421a39864b0a4b8531bf142451376">etatSobreJoueur</a> || jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a70675b072c1a4b2f8bd8a5d5e8efddaa">etatDangerJoueur</a>){</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#afac421a39864b0a4b8531bf142451376">etatSobreJoueur</a> &amp;&amp; jeu-&gt;<a class="code" href="struct_jeu.html#ad258b167e427736082a4a718d2f459ff">options</a>.<a class="code" href="struct_options.html#a865eb5944463979ff51e44e3efd31b9a">typeMode</a> == 4){</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a9ff398b63a6e7f747ed6588eb4004aa5">visionRange</a>++;</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        }</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#afac421a39864b0a4b8531bf142451376">etatSobreJoueur</a>=<a class="code" href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7af79e704d6acaa58f1a2342decb066020">ETAT_NORMAL</a>;</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a70675b072c1a4b2f8bd8a5d5e8efddaa">etatDangerJoueur</a>=<a class="code" href="structure_8h.html#a0482a72a4ccf5c8d008328482fab2098a427668c651361fbb362c97936dfdee43">ETAT_NON_DANGER</a>;</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        </div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    }<span class="keywordflow">else</span>{</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <a class="code" href="event_8c.html#aac4e98a727d0f8574e0424e2d72961d6">ajouterItemInventaire</a>(jeu,<a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22a6798172794cfa38710e271df1320a57c">MILK</a>,<span class="stringliteral">&quot;Milk Potion&quot;</span>);</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    }</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160; </div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00250">250</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                              {</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#afac421a39864b0a4b8531bf142451376">etatSobreJoueur</a> || jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a70675b072c1a4b2f8bd8a5d5e8efddaa">etatDangerJoueur</a>){</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#afac421a39864b0a4b8531bf142451376">etatSobreJoueur</a> &amp;&amp; jeu-&gt;<a class="code" href="struct_jeu.html#ad258b167e427736082a4a718d2f459ff">options</a>.<a class="code" href="struct_options.html#a865eb5944463979ff51e44e3efd31b9a">typeMode</a> == 4){</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a9ff398b63a6e7f747ed6588eb4004aa5">visionRange</a>++;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        }</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#afac421a39864b0a4b8531bf142451376">etatSobreJoueur</a>=<a class="code" href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7af79e704d6acaa58f1a2342decb066020">ETAT_NORMAL</a>;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a70675b072c1a4b2f8bd8a5d5e8efddaa">etatDangerJoueur</a>=<a class="code" href="structure_8h.html#a0482a72a4ccf5c8d008328482fab2098a427668c651361fbb362c97936dfdee43">ETAT_NON_DANGER</a>;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        </div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <a class="code" href="event_8c.html#aac4e98a727d0f8574e0424e2d72961d6">ajouterItemInventaire</a>(jeu,<a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22a6798172794cfa38710e271df1320a57c">MILK</a>,<span class="stringliteral">&quot;Milk Potion&quot;</span>);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    }</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160; </div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;}</div>
 <div class="ttc" id="astruct_jeu_html_ad258b167e427736082a4a718d2f459ff"><div class="ttname"><a href="struct_jeu.html#ad258b167e427736082a4a718d2f459ff">Jeu::options</a></div><div class="ttdeci">Options options</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00108">structure.h:108</a></div></div>
 <div class="ttc" id="astruct_joueur_html_a70675b072c1a4b2f8bd8a5d5e8efddaa"><div class="ttname"><a href="struct_joueur.html#a70675b072c1a4b2f8bd8a5d5e8efddaa">Joueur::etatDangerJoueur</a></div><div class="ttdeci">int etatDangerJoueur</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00064">structure.h:64</a></div></div>
 <div class="ttc" id="astruct_joueur_html_a9ff398b63a6e7f747ed6588eb4004aa5"><div class="ttname"><a href="struct_joueur.html#a9ff398b63a6e7f747ed6588eb4004aa5">Joueur::visionRange</a></div><div class="ttdeci">int visionRange</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00068">structure.h:68</a></div></div>
@@ -917,9 +1052,9 @@ Variables</h2></td></tr>
 <div class="ttc" id="astructure_8h_html_aa8c0b30d56cd82613629274f264dff22a6798172794cfa38710e271df1320a57c"><div class="ttname"><a href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22a6798172794cfa38710e271df1320a57c">MILK</a></div><div class="ttdeci">@ MILK</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00012">structure.h:12</a></div></div>
 <div class="ttc" id="astructure_8h_html_ad9b09e684de737ac98f27d49c7778bb7af79e704d6acaa58f1a2342decb066020"><div class="ttname"><a href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7af79e704d6acaa58f1a2342decb066020">ETAT_NORMAL</a></div><div class="ttdeci">@ ETAT_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00013">structure.h:13</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="event_8c_source.html#l00213">ajouterItemInventaire()</a>, <a class="el" href="structure_8h_source.html#l00014">ETAT_NON_DANGER</a>, <a class="el" href="structure_8h_source.html#l00013">ETAT_NORMAL</a>, <a class="el" href="structure_8h_source.html#l00064">Joueur::etatDangerJoueur</a>, <a class="el" href="structure_8h_source.html#l00063">Joueur::etatSobreJoueur</a>, <a class="el" href="structure_8h_source.html#l00101">Jeu::j</a>, <a class="el" href="structure_8h_source.html#l00012">MILK</a>, <a class="el" href="structure_8h_source.html#l00108">Jeu::options</a>, <a class="el" href="structure_8h_source.html#l00093">Options::typeMode</a>, and <a class="el" href="structure_8h_source.html#l00068">Joueur::visionRange</a>.</p>
+<p class="reference">References <a class="el" href="event_8c_source.html#l00214">ajouterItemInventaire()</a>, <a class="el" href="structure_8h_source.html#l00014">ETAT_NON_DANGER</a>, <a class="el" href="structure_8h_source.html#l00013">ETAT_NORMAL</a>, <a class="el" href="structure_8h_source.html#l00064">Joueur::etatDangerJoueur</a>, <a class="el" href="structure_8h_source.html#l00063">Joueur::etatSobreJoueur</a>, <a class="el" href="structure_8h_source.html#l00101">Jeu::j</a>, <a class="el" href="structure_8h_source.html#l00012">MILK</a>, <a class="el" href="structure_8h_source.html#l00108">Jeu::options</a>, <a class="el" href="structure_8h_source.html#l00093">Options::typeMode</a>, and <a class="el" href="structure_8h_source.html#l00068">Joueur::visionRange</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00263">verifEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00282">verifEvent()</a>.</p>
 
 </div>
 </div>
@@ -976,26 +1111,74 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00393">393</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;                                                                           {</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    <span class="keywordflow">if</span>(a-&gt;<a class="code" href="structnode.html#a22a8c9208225c949d26f371f8b82bc36">type</a> == <a class="code" href="structure_8h.html#a5ff6e798033f03e74730e99f01936f84">SPACE</a>){</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;      (*tabAriane)[a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]] = *x;</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;      (*x)++;</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    }<span class="keywordflow">else</span>{</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;      (*tabAriane)[a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]] = maze.<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>*maze.<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>;</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    }</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    </div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> n = 0; n &lt; a-&gt;<a class="code" href="structnode.html#a2c22fb242025e200ae923fcd076da684">nbFils</a>; n++){</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        <a class="code" href="event_8c.html#a55730a438cae73d73dc90f5bc4b938a3">naviguerArbreChemins</a>(a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[n],maze,tabAriane,x);</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;    }</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00412">412</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;                                                                           {</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    <span class="keywordflow">if</span>(a-&gt;<a class="code" href="structnode.html#a22a8c9208225c949d26f371f8b82bc36">type</a> == <a class="code" href="structure_8h.html#a5ff6e798033f03e74730e99f01936f84">SPACE</a>){</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;      (*tabAriane)[a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]] = *x;</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;      (*x)++;</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;      (*tabAriane)[a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]] = maze.<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>*maze.<a class="code" href="struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068">sizeMaze</a>;</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    }</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    </div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> n = 0; n &lt; a-&gt;<a class="code" href="structnode.html#a2c22fb242025e200ae923fcd076da684">nbFils</a>; n++){</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        <a class="code" href="event_8c.html#a55730a438cae73d73dc90f5bc4b938a3">naviguerArbreChemins</a>(a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[n],maze,tabAriane,x);</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    }</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;}</div>
 <div class="ttc" id="astructnode_html_a22a8c9208225c949d26f371f8b82bc36"><div class="ttname"><a href="structnode.html#a22a8c9208225c949d26f371f8b82bc36">node::type</a></div><div class="ttdeci">int type</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00075">structure.h:75</a></div></div>
 <div class="ttc" id="astructure_8h_html_a5ff6e798033f03e74730e99f01936f84"><div class="ttname"><a href="structure_8h.html#a5ff6e798033f03e74730e99f01936f84">SPACE</a></div><div class="ttdeci">#define SPACE</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00038">structure.h:38</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="structure_8h_source.html#l00076">node::fils</a>, <a class="el" href="structure_8h_source.html#l00074">node::nbFils</a>, <a class="el" href="structure_8h_source.html#l00073">node::positions</a>, <a class="el" href="structure_8h_source.html#l00083">Maze::sizeMaze</a>, <a class="el" href="structure_8h_source.html#l00038">SPACE</a>, and <a class="el" href="structure_8h_source.html#l00075">node::type</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00455">filAriane2()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00474">filAriane2()</a>.</p>
 
+</div>
+</div>
+<a id="abf93c63fb7f57621e22b8e5f7177dcab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf93c63fb7f57621e22b8e5f7177dcab">&#9670;&nbsp;</a></span>notSoRandom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int notSoRandom </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_jeu.html">Jeu</a> *&#160;</td>
+          <td class="paramname"><em>jeu</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Modifie l'aléatoire pour une apparition des objets plus équilibrée. </p>
+<dl class="section author"><dt>Author</dt><dd>Etienne Massonnet </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>(January 17th, 2024 9:17 AM) </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">jeu</td><td><a class="el" href="struct_jeu.html">Jeu</a> contenant le niveau de la partie </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">event</td><td>entier correspondant à l'évènement choisi </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00264">264</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                         {</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;  <span class="keywordtype">int</span> res;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;  <span class="comment">//chances de se produire pour les évènements :</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;  <span class="keywordtype">int</span> health=1;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;  <span class="keywordtype">int</span> medikit=1;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;  <span class="keywordtype">int</span> damage=1;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;  <span class="keywordtype">int</span> fire=1;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;  <span class="keywordtype">int</span> drunk=1;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;  <span class="keywordtype">int</span> milk=1;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;  <span class="keywordtype">int</span> ariane=1;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;  <span class="keywordtype">int</span> poison=1;</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;  <span class="keywordtype">int</span> score=1;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;  <span class="keywordtype">int</span> fun=1;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;  </div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;  <span class="keywordtype">int</span> random = (rand()%10)+1;</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;  <span class="keywordflow">return</span> res;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a id="a17be33c59ad9f0a95c49775b51ac4076"></a>
@@ -1043,41 +1226,307 @@ Variables</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00425">425</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
-<div class="fragment"><div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;                                                           {</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    <span class="keywordflow">if</span>(tabAriane[a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]] != 6){</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;      <span class="keywordtype">int</span> valMin = tabAriane[a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]];</div>
-<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;      <span class="keywordtype">int</span> idMin = 0;</div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160; </div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">int</span> n = 0; n &lt; a-&gt;<a class="code" href="structnode.html#a2c22fb242025e200ae923fcd076da684">nbFils</a>; n++){</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;        <span class="keywordflow">if</span>(tabAriane[a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[n]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[n]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]]&lt;valMin){</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;          valMin = tabAriane[a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[n]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[n]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]];</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;          idMin = n;</div>
-<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;        }</div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;      }</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;      <span class="keywordflow">if</span>(tabAriane[a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]]&lt;valMin){</div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;        valMin = tabAriane[a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]];</div>
-<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;        idMin = 4;</div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;      }</div>
-<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;      <span class="keywordflow">if</span>(idMin == 4){</div>
-<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;        <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#ac4640021749af6020a21b749e4f4416b">tabMaze</a>[a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]] == <a class="code" href="structure_8h.html#a5ff6e798033f03e74730e99f01936f84">SPACE</a>){</div>
-<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;            jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#ac4640021749af6020a21b749e4f4416b">tabMaze</a>[a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]] = <a class="code" href="structure_8h.html#af5549de4a54dac2597f138f997c13286">FIL</a>;</div>
-<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;        }</div>
-<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;        <a class="code" href="event_8c.html#afd22406001991124b16eb2684528c7c0">remonterArbre</a>(a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>,tabAriane,jeu);</div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;      }<span class="keywordflow">else</span>{</div>
-<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;         <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#ac4640021749af6020a21b749e4f4416b">tabMaze</a>[a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[idMin]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[idMin]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]] == <a class="code" href="structure_8h.html#a5ff6e798033f03e74730e99f01936f84">SPACE</a>){</div>
-<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;            jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#ac4640021749af6020a21b749e4f4416b">tabMaze</a>[a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[idMin]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[idMin]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]] = <a class="code" href="structure_8h.html#af5549de4a54dac2597f138f997c13286">FIL</a>;</div>
-<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;        }</div>
-<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;        <a class="code" href="event_8c.html#afd22406001991124b16eb2684528c7c0">remonterArbre</a>(a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[idMin],tabAriane,jeu);</div>
-<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;      }</div>
-<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;  }</div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;}</div>
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00444">444</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;                                                           {</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    <span class="keywordflow">if</span>(tabAriane[a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]] != 6){</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;      <span class="keywordtype">int</span> valMin = tabAriane[a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]];</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;      <span class="keywordtype">int</span> idMin = 0;</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160; </div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;      <span class="keywordflow">for</span>(<span class="keywordtype">int</span> n = 0; n &lt; a-&gt;<a class="code" href="structnode.html#a2c22fb242025e200ae923fcd076da684">nbFils</a>; n++){</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;        <span class="keywordflow">if</span>(tabAriane[a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[n]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[n]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]]&lt;valMin){</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;          valMin = tabAriane[a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[n]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[n]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]];</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;          idMin = n;</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;        }</div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;      }</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;      <span class="keywordflow">if</span>(tabAriane[a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]]&lt;valMin){</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        valMin = tabAriane[a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]];</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        idMin = 4;</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;      }</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;      <span class="keywordflow">if</span>(idMin == 4){</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;        <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#ac4640021749af6020a21b749e4f4416b">tabMaze</a>[a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]] == <a class="code" href="structure_8h.html#a5ff6e798033f03e74730e99f01936f84">SPACE</a>){</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;            jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#ac4640021749af6020a21b749e4f4416b">tabMaze</a>[a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]] = <a class="code" href="structure_8h.html#af5549de4a54dac2597f138f997c13286">FIL</a>;</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;        }</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;        <a class="code" href="event_8c.html#afd22406001991124b16eb2684528c7c0">remonterArbre</a>(a-&gt;<a class="code" href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">parent</a>,tabAriane,jeu);</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;      }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;         <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#ac4640021749af6020a21b749e4f4416b">tabMaze</a>[a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[idMin]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[idMin]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]] == <a class="code" href="structure_8h.html#a5ff6e798033f03e74730e99f01936f84">SPACE</a>){</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;            jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#ac4640021749af6020a21b749e4f4416b">tabMaze</a>[a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[idMin]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[0]][a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[idMin]-&gt;<a class="code" href="structnode.html#abc81362e66bc009245109fbec8f4cb07">positions</a>[1]] = <a class="code" href="structure_8h.html#af5549de4a54dac2597f138f997c13286">FIL</a>;</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;        }</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;        <a class="code" href="event_8c.html#afd22406001991124b16eb2684528c7c0">remonterArbre</a>(a-&gt;<a class="code" href="structnode.html#a2bd2f49b010b4d8382af0cd01a86f420">fils</a>[idMin],tabAriane,jeu);</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;      }</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;  }</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;}</div>
 <div class="ttc" id="astructnode_html_a05e4fe9e0177ba2d8dbd2c487cfddd53"><div class="ttname"><a href="structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53">node::parent</a></div><div class="ttdeci">struct node * parent</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00077">structure.h:77</a></div></div>
 <div class="ttc" id="astructure_8h_html_af5549de4a54dac2597f138f997c13286"><div class="ttname"><a href="structure_8h.html#af5549de4a54dac2597f138f997c13286">FIL</a></div><div class="ttdeci">#define FIL</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00045">structure.h:45</a></div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="structure_8h_source.html#l00045">FIL</a>, <a class="el" href="structure_8h_source.html#l00076">node::fils</a>, <a class="el" href="structure_8h_source.html#l00106">Jeu::maze</a>, <a class="el" href="structure_8h_source.html#l00074">node::nbFils</a>, <a class="el" href="structure_8h_source.html#l00077">node::parent</a>, <a class="el" href="structure_8h_source.html#l00073">node::positions</a>, <a class="el" href="structure_8h_source.html#l00038">SPACE</a>, and <a class="el" href="structure_8h_source.html#l00084">Maze::tabMaze</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00455">filAriane2()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00474">filAriane2()</a>.</p>
+
+</div>
+</div>
+<a id="a8e9061fc5e697df18893ea60da099d41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e9061fc5e697df18893ea60da099d41">&#9670;&nbsp;</a></span>verifEtatEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void verifEtatEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_joueur.html">Joueur</a> *&#160;</td>
+          <td class="paramname"><em>j</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *&#160;</td>
+          <td class="paramname"><em>typeEvent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vérifie l'état de l'évenement pour l'affichage et la fin du poison et du feu. </p>
+<dl class="section author"><dt>Author</dt><dd>Paul Brechenmacher </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>(January 7th, 2024 11:12 AM) </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">j</td><td>Pointeur du <a class="el" href="struct_joueur.html">Joueur</a> contenant les caractéristiques et les états du joueur </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">typeEvent</td><td>Type de l'event à effectuer et à vérifier </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">j</td><td><a class="el" href="struct_joueur.html">Joueur</a> modifié avec un nouvel état (souvent le poison ou le feu) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00374">374</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;                                             {</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    <span class="comment">// Afficher l&#39;event en cours si pas NONE et si le joueur n&#39;est pas en poison ou en feu</span></div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    <span class="keywordflow">if</span>(*typeEvent != <a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22ac157bdf0b85a40d2619cbc8bc1ae5fe2">NONE</a> &amp;&amp; j-&gt;<a class="code" href="struct_joueur.html#a70675b072c1a4b2f8bd8a5d5e8efddaa">etatDangerJoueur</a> == <a class="code" href="structure_8h.html#a0482a72a4ccf5c8d008328482fab2098a427668c651361fbb362c97936dfdee43">ETAT_NON_DANGER</a>){</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;                <a class="code" href="affichage_8c.html#a66623ace96117b4592ce9dd67269946e">afficherUseItem</a>(*typeEvent);</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;                *typeEvent = <a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22ac157bdf0b85a40d2619cbc8bc1ae5fe2">NONE</a>;</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    }</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    <span class="comment">//Si le nombre de tours de poison et de feu est terminé</span></div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    <span class="keywordflow">if</span>(j-&gt;<a class="code" href="struct_joueur.html#a4c0c9136ec4392cb26ebae3683f72242">etatTourRestants</a> == 0){</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        j-&gt;<a class="code" href="struct_joueur.html#a70675b072c1a4b2f8bd8a5d5e8efddaa">etatDangerJoueur</a> = <a class="code" href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7af79e704d6acaa58f1a2342decb066020">ETAT_NORMAL</a>;</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    }</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;}</div>
+<div class="ttc" id="aaffichage_8c_html_a66623ace96117b4592ce9dd67269946e"><div class="ttname"><a href="affichage_8c.html#a66623ace96117b4592ce9dd67269946e">afficherUseItem</a></div><div class="ttdeci">void afficherUseItem(int type)</div><div class="ttdoc">Permet d'afficher un objet rencontré ou utilisé dans le labyrinthe.</div><div class="ttdef"><b>Definition:</b> <a href="affichage_8c_source.html#l00196">affichage.c:196</a></div></div>
+<div class="ttc" id="astruct_joueur_html_a4c0c9136ec4392cb26ebae3683f72242"><div class="ttname"><a href="struct_joueur.html#a4c0c9136ec4392cb26ebae3683f72242">Joueur::etatTourRestants</a></div><div class="ttdeci">int etatTourRestants</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00065">structure.h:65</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="affichage_8c_source.html#l00196">afficherUseItem()</a>, <a class="el" href="structure_8h_source.html#l00014">ETAT_NON_DANGER</a>, <a class="el" href="structure_8h_source.html#l00013">ETAT_NORMAL</a>, <a class="el" href="structure_8h_source.html#l00064">Joueur::etatDangerJoueur</a>, <a class="el" href="structure_8h_source.html#l00065">Joueur::etatTourRestants</a>, and <a class="el" href="structure_8h_source.html#l00012">NONE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00386">eventJoueur()</a>.</p>
+
+</div>
+</div>
+<a id="a97348617cb81aa5b3cdd65718916d9a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97348617cb81aa5b3cdd65718916d9a0">&#9670;&nbsp;</a></span>verifEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void verifEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_jeu.html">Jeu</a> *&#160;</td>
+          <td class="paramname"><em>jeu</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int ***&#160;</td>
+          <td class="paramname"><em>maze</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>positionL</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>positionC</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vérifie si un event est placé sur la case demandé par le joueur et effectue un évenement aléatoirement. </p>
+<dl class="section author"><dt>Author</dt><dd>Paul Brechenmacher </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>(January 12th, 2024 5:32 PM) </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">jeu</td><td><a class="el" href="struct_jeu.html">Jeu</a> contenant l'inventaire et les différentes options </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">maze</td><td>Pointeur du tableau 2D représentant le labyrinthe <br  />
+ </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">positionL</td><td>Position ligne demandée par le joueur </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">positionC</td><td>Position colonne demandée par le joueur </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00282">282</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                                                                    {</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    <span class="keywordflow">if</span>((*maze)[positionL][positionC] == <a class="code" href="structure_8h.html#a7877e997621e1161f058fce90febd464">EVENT</a>){</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        jeu-&gt;<a class="code" href="struct_jeu.html#afb0579457934264653eea59d9d94d5ee">score</a> = jeu-&gt;<a class="code" href="struct_jeu.html#afb0579457934264653eea59d9d94d5ee">score</a> + 25;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <span class="keywordtype">int</span> precEvent =-1;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <span class="keywordtype">int</span> randomEvent;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        usleep(5000);</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <span class="comment">// pas remettre l&#39;inversion clavier si on l&#39;a pas enlevé avant</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <span class="keywordflow">do</span>{</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;            randomEvent = (rand() % 10)+1; <span class="comment">// entre random entre 1 et 10</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        }<span class="keywordflow">while</span> (precEvent==randomEvent);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        precEvent = randomEvent;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <span class="comment">//à remplacer par switch (notSoRandom(Jeu))</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        <span class="keywordflow">switch</span> (randomEvent) {</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22ae3cc1f58e26cf5e3a7d8eeffa9da0d5a">HEALTH</a>:</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                <a class="code" href="event_8c.html#ab795fec8278646cb80f2c660e3bf053e">healthPotionEvent</a>(jeu);</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22a4990e396000033a0134a65dcacc671a8">MEDIKIT</a>:</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                <a class="code" href="event_8c.html#a7227cb70c623cfa8e475614a7a3d052f">medikitEvent</a>(jeu);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22aa481f681683f03d1742f0e30de6328e5">DAMAGE</a>:</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                <a class="code" href="event_8c.html#a343c51cae1e26ec852e308eacd773de7">damageTrapEvent</a>(jeu);</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22a6811f08ec3a763b0351fab6fb5054df8">FIRE</a>:</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a70675b072c1a4b2f8bd8a5d5e8efddaa">etatDangerJoueur</a> = <a class="code" href="structure_8h.html#a0482a72a4ccf5c8d008328482fab2098a36f4921050f87383545bc596548036d4">ETAT_FEU</a>;</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a4c0c9136ec4392cb26ebae3683f72242">etatTourRestants</a> = jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a4c0c9136ec4392cb26ebae3683f72242">etatTourRestants</a> + (jeu-&gt;<a class="code" href="struct_jeu.html#a66f111740543a3be8537337e7d27f717">level</a>/4)+1;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;               <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22af05085783400fb2b9424151a531919d2">DRUNK</a>:</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#afac421a39864b0a4b8531bf142451376">etatSobreJoueur</a>=<a class="code" href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7a323d887ae4e21ac490ed9f8e1d074a8f">ETAT_DRUNK</a>;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#ad258b167e427736082a4a718d2f459ff">options</a>.<a class="code" href="struct_options.html#a865eb5944463979ff51e44e3efd31b9a">typeMode</a> == 4){</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                    <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a9ff398b63a6e7f747ed6588eb4004aa5">visionRange</a> &gt; 2){</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                        jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a9ff398b63a6e7f747ed6588eb4004aa5">visionRange</a>--;</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                    }</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;                }</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                precEvent=1;</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22a6798172794cfa38710e271df1320a57c">MILK</a>:</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                <a class="code" href="event_8c.html#a0ea87d181cd599d0938a7d24041386d8">milkPotionEvent</a>(jeu);</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22a9cfd33280f6c46af71f3104663f1f06b">ARIANE</a>:</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#aa8994b7385a62a3123ecdd7c29be2792">maze</a>.<a class="code" href="struct_maze.html#a11d4440fd8d9cc3aa043e4aed91fb8f7">typeMaze</a>){</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;                    <a class="code" href="event_8c.html#a6688edbfb2ffc1af6a5cb25301e786b3">filAriane2</a>(jeu);</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;                }</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22aafa82716ce8ad7247f07e61a5d88ba01">POISON</a>:</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;                jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a70675b072c1a4b2f8bd8a5d5e8efddaa">etatDangerJoueur</a> = <a class="code" href="structure_8h.html#a0482a72a4ccf5c8d008328482fab2098a1f46235740fa4179fa9c716901a93c58">ETAT_POISON</a>;</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a4c0c9136ec4392cb26ebae3683f72242">etatTourRestants</a> = jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a4c0c9136ec4392cb26ebae3683f72242">etatTourRestants</a> + (jeu-&gt;<a class="code" href="struct_jeu.html#a66f111740543a3be8537337e7d27f717">level</a>/4)+2;</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22af57444a2814db96222f09035ff269767">SCORE</a>:</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                jeu-&gt;<a class="code" href="struct_jeu.html#afb0579457934264653eea59d9d94d5ee">score</a> = jeu-&gt;<a class="code" href="struct_jeu.html#afb0579457934264653eea59d9d94d5ee">score</a> + 500;</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22a18d8247493ec56714e6beefdf24a546e">FUN</a>:</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;                <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#ad258b167e427736082a4a718d2f459ff">options</a>.<a class="code" href="struct_options.html#aa06a07d46c1140fbd94dfd44f7afbc1f">typeEmoji</a> == 1 &amp;&amp; jeu-&gt;<a class="code" href="struct_jeu.html#ad258b167e427736082a4a718d2f459ff">options</a>.<a class="code" href="struct_options.html#a865eb5944463979ff51e44e3efd31b9a">typeMode</a> == 3){</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                    system(<span class="stringliteral">&quot;clear&quot;</span>);</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;                    <a class="code" href="affichage_8c.html#a4e703540e6834ca52d201350071bf46b">lireArsenal</a>();</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                    sleep(5);</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                    system(<span class="stringliteral">&quot;clear&quot;</span>);</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                    jeu-&gt;<a class="code" href="struct_jeu.html#afb0579457934264653eea59d9d94d5ee">score</a> = jeu-&gt;<a class="code" href="struct_jeu.html#afb0579457934264653eea59d9d94d5ee">score</a> + 250;</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                    <span class="keywordflow">if</span>(jeu-&gt;<a class="code" href="struct_jeu.html#ad258b167e427736082a4a718d2f459ff">options</a>.<a class="code" href="struct_options.html#a865eb5944463979ff51e44e3efd31b9a">typeMode</a> == 4){</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                            jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#a9ff398b63a6e7f747ed6588eb4004aa5">visionRange</a>++;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                    }</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;                }</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160; </div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;            <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                printf(<span class="stringliteral">&quot;Error Event Switch Case\n&quot;</span>);</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        }</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        jeu-&gt;<a class="code" href="struct_jeu.html#ad86cd534ff25b082bcd2b50b153e45c7">typeEvent</a> = randomEvent;</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    }</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    <span class="keywordflow">if</span>((*maze)[positionL][positionC] == <a class="code" href="structure_8h.html#a8ae9d53f33f46cfcfcb9736e6351452a">KEY</a>){</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        jeu-&gt;<a class="code" href="struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0">j</a>.<a class="code" href="struct_joueur.html#ae6dbe2e5f09bff230158f17fde2632d8">findKeys</a> = 1;</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        jeu-&gt;<a class="code" href="struct_jeu.html#afb0579457934264653eea59d9d94d5ee">score</a> = jeu-&gt;<a class="code" href="struct_jeu.html#afb0579457934264653eea59d9d94d5ee">score</a> + 100;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    }</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;}</div>
+<div class="ttc" id="aaffichage_8c_html_a4e703540e6834ca52d201350071bf46b"><div class="ttname"><a href="affichage_8c.html#a4e703540e6834ca52d201350071bf46b">lireArsenal</a></div><div class="ttdeci">void lireArsenal()</div><div class="ttdoc">Lit le CSV et affiche le logo de Arsenal en mode labyrinthe.</div><div class="ttdef"><b>Definition:</b> <a href="affichage_8c_source.html#l00101">affichage.c:101</a></div></div>
+<div class="ttc" id="aevent_8c_html_a0ea87d181cd599d0938a7d24041386d8"><div class="ttname"><a href="event_8c.html#a0ea87d181cd599d0938a7d24041386d8">milkPotionEvent</a></div><div class="ttdeci">void milkPotionEvent(Jeu *jeu)</div><div class="ttdoc">Permet d'effectuer l'évenement verre de lait (supprime les effets négatifs du joueur)</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00250">event.c:250</a></div></div>
+<div class="ttc" id="aevent_8c_html_a343c51cae1e26ec852e308eacd773de7"><div class="ttname"><a href="event_8c.html#a343c51cae1e26ec852e308eacd773de7">damageTrapEvent</a></div><div class="ttdeci">void damageTrapEvent(Jeu *jeu)</div><div class="ttdoc">Permet d'effectuer l'évenement de dégats sur le joueur.</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00245">event.c:245</a></div></div>
+<div class="ttc" id="aevent_8c_html_a6688edbfb2ffc1af6a5cb25301e786b3"><div class="ttname"><a href="event_8c.html#a6688edbfb2ffc1af6a5cb25301e786b3">filAriane2</a></div><div class="ttdeci">void filAriane2(Jeu *jeu)</div><div class="ttdoc">Permet d'afficher le fil d'Ariane.</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00474">event.c:474</a></div></div>
+<div class="ttc" id="aevent_8c_html_a7227cb70c623cfa8e475614a7a3d052f"><div class="ttname"><a href="event_8c.html#a7227cb70c623cfa8e475614a7a3d052f">medikitEvent</a></div><div class="ttdeci">void medikitEvent(Jeu *jeu)</div><div class="ttdoc">Permet de réaliser un évenement qui soigne le joueur.</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00237">event.c:237</a></div></div>
+<div class="ttc" id="aevent_8c_html_ab795fec8278646cb80f2c660e3bf053e"><div class="ttname"><a href="event_8c.html#ab795fec8278646cb80f2c660e3bf053e">healthPotionEvent</a></div><div class="ttdeci">void healthPotionEvent(Jeu *jeu)</div><div class="ttdoc">Permet de réaliser un évenement qui soigne le joueur.</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00229">event.c:229</a></div></div>
+<div class="ttc" id="astruct_jeu_html_a66f111740543a3be8537337e7d27f717"><div class="ttname"><a href="struct_jeu.html#a66f111740543a3be8537337e7d27f717">Jeu::level</a></div><div class="ttdeci">int level</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00102">structure.h:102</a></div></div>
+<div class="ttc" id="astruct_jeu_html_ad86cd534ff25b082bcd2b50b153e45c7"><div class="ttname"><a href="struct_jeu.html#ad86cd534ff25b082bcd2b50b153e45c7">Jeu::typeEvent</a></div><div class="ttdeci">int typeEvent</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00100">structure.h:100</a></div></div>
+<div class="ttc" id="astruct_jeu_html_afb0579457934264653eea59d9d94d5ee"><div class="ttname"><a href="struct_jeu.html#afb0579457934264653eea59d9d94d5ee">Jeu::score</a></div><div class="ttdeci">int score</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00103">structure.h:103</a></div></div>
+<div class="ttc" id="astruct_joueur_html_ae6dbe2e5f09bff230158f17fde2632d8"><div class="ttname"><a href="struct_joueur.html#ae6dbe2e5f09bff230158f17fde2632d8">Joueur::findKeys</a></div><div class="ttdeci">int findKeys</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00067">structure.h:67</a></div></div>
+<div class="ttc" id="astruct_maze_html_a11d4440fd8d9cc3aa043e4aed91fb8f7"><div class="ttname"><a href="struct_maze.html#a11d4440fd8d9cc3aa043e4aed91fb8f7">Maze::typeMaze</a></div><div class="ttdeci">int typeMaze</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00082">structure.h:82</a></div></div>
+<div class="ttc" id="astruct_options_html_aa06a07d46c1140fbd94dfd44f7afbc1f"><div class="ttname"><a href="struct_options.html#aa06a07d46c1140fbd94dfd44f7afbc1f">Options::typeEmoji</a></div><div class="ttdeci">int typeEmoji</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00092">structure.h:92</a></div></div>
+<div class="ttc" id="astructure_8h_html_a0482a72a4ccf5c8d008328482fab2098a1f46235740fa4179fa9c716901a93c58"><div class="ttname"><a href="structure_8h.html#a0482a72a4ccf5c8d008328482fab2098a1f46235740fa4179fa9c716901a93c58">ETAT_POISON</a></div><div class="ttdeci">@ ETAT_POISON</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00014">structure.h:14</a></div></div>
+<div class="ttc" id="astructure_8h_html_a0482a72a4ccf5c8d008328482fab2098a36f4921050f87383545bc596548036d4"><div class="ttname"><a href="structure_8h.html#a0482a72a4ccf5c8d008328482fab2098a36f4921050f87383545bc596548036d4">ETAT_FEU</a></div><div class="ttdeci">@ ETAT_FEU</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00014">structure.h:14</a></div></div>
+<div class="ttc" id="astructure_8h_html_a7877e997621e1161f058fce90febd464"><div class="ttname"><a href="structure_8h.html#a7877e997621e1161f058fce90febd464">EVENT</a></div><div class="ttdeci">#define EVENT</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00043">structure.h:43</a></div></div>
+<div class="ttc" id="astructure_8h_html_a8ae9d53f33f46cfcfcb9736e6351452a"><div class="ttname"><a href="structure_8h.html#a8ae9d53f33f46cfcfcb9736e6351452a">KEY</a></div><div class="ttdeci">#define KEY</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00042">structure.h:42</a></div></div>
+<div class="ttc" id="astructure_8h_html_aa8c0b30d56cd82613629274f264dff22a18d8247493ec56714e6beefdf24a546e"><div class="ttname"><a href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22a18d8247493ec56714e6beefdf24a546e">FUN</a></div><div class="ttdeci">@ FUN</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00012">structure.h:12</a></div></div>
+<div class="ttc" id="astructure_8h_html_aa8c0b30d56cd82613629274f264dff22a6811f08ec3a763b0351fab6fb5054df8"><div class="ttname"><a href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22a6811f08ec3a763b0351fab6fb5054df8">FIRE</a></div><div class="ttdeci">@ FIRE</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00012">structure.h:12</a></div></div>
+<div class="ttc" id="astructure_8h_html_aa8c0b30d56cd82613629274f264dff22a9cfd33280f6c46af71f3104663f1f06b"><div class="ttname"><a href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22a9cfd33280f6c46af71f3104663f1f06b">ARIANE</a></div><div class="ttdeci">@ ARIANE</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00012">structure.h:12</a></div></div>
+<div class="ttc" id="astructure_8h_html_aa8c0b30d56cd82613629274f264dff22aa481f681683f03d1742f0e30de6328e5"><div class="ttname"><a href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22aa481f681683f03d1742f0e30de6328e5">DAMAGE</a></div><div class="ttdeci">@ DAMAGE</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00012">structure.h:12</a></div></div>
+<div class="ttc" id="astructure_8h_html_aa8c0b30d56cd82613629274f264dff22aafa82716ce8ad7247f07e61a5d88ba01"><div class="ttname"><a href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22aafa82716ce8ad7247f07e61a5d88ba01">POISON</a></div><div class="ttdeci">@ POISON</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00012">structure.h:12</a></div></div>
+<div class="ttc" id="astructure_8h_html_aa8c0b30d56cd82613629274f264dff22af05085783400fb2b9424151a531919d2"><div class="ttname"><a href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22af05085783400fb2b9424151a531919d2">DRUNK</a></div><div class="ttdeci">@ DRUNK</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00012">structure.h:12</a></div></div>
+<div class="ttc" id="astructure_8h_html_aa8c0b30d56cd82613629274f264dff22af57444a2814db96222f09035ff269767"><div class="ttname"><a href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22af57444a2814db96222f09035ff269767">SCORE</a></div><div class="ttdeci">@ SCORE</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00012">structure.h:12</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="structure_8h_source.html#l00012">ARIANE</a>, <a class="el" href="structure_8h_source.html#l00012">DAMAGE</a>, <a class="el" href="event_8c_source.html#l00245">damageTrapEvent()</a>, <a class="el" href="structure_8h_source.html#l00012">DRUNK</a>, <a class="el" href="structure_8h_source.html#l00013">ETAT_DRUNK</a>, <a class="el" href="structure_8h_source.html#l00014">ETAT_FEU</a>, <a class="el" href="structure_8h_source.html#l00014">ETAT_POISON</a>, <a class="el" href="structure_8h_source.html#l00064">Joueur::etatDangerJoueur</a>, <a class="el" href="structure_8h_source.html#l00063">Joueur::etatSobreJoueur</a>, <a class="el" href="structure_8h_source.html#l00065">Joueur::etatTourRestants</a>, <a class="el" href="structure_8h_source.html#l00043">EVENT</a>, <a class="el" href="event_8c_source.html#l00474">filAriane2()</a>, <a class="el" href="structure_8h_source.html#l00067">Joueur::findKeys</a>, <a class="el" href="structure_8h_source.html#l00012">FIRE</a>, <a class="el" href="structure_8h_source.html#l00012">FUN</a>, <a class="el" href="structure_8h_source.html#l00012">HEALTH</a>, <a class="el" href="event_8c_source.html#l00229">healthPotionEvent()</a>, <a class="el" href="structure_8h_source.html#l00101">Jeu::j</a>, <a class="el" href="structure_8h_source.html#l00042">KEY</a>, <a class="el" href="structure_8h_source.html#l00102">Jeu::level</a>, <a class="el" href="affichage_8c_source.html#l00101">lireArsenal()</a>, <a class="el" href="structure_8h_source.html#l00106">Jeu::maze</a>, <a class="el" href="structure_8h_source.html#l00012">MEDIKIT</a>, <a class="el" href="event_8c_source.html#l00237">medikitEvent()</a>, <a class="el" href="structure_8h_source.html#l00012">MILK</a>, <a class="el" href="event_8c_source.html#l00250">milkPotionEvent()</a>, <a class="el" href="structure_8h_source.html#l00108">Jeu::options</a>, <a class="el" href="structure_8h_source.html#l00012">POISON</a>, <a class="el" href="structure_8h_source.html#l00012">SCORE</a>, <a class="el" href="structure_8h_source.html#l00103">Jeu::score</a>, <a class="el" href="structure_8h_source.html#l00092">Options::typeEmoji</a>, <a class="el" href="structure_8h_source.html#l00100">Jeu::typeEvent</a>, <a class="el" href="structure_8h_source.html#l00082">Maze::typeMaze</a>, <a class="el" href="structure_8h_source.html#l00093">Options::typeMode</a>, and <a class="el" href="structure_8h_source.html#l00068">Joueur::visionRange</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="game_8c_source.html#l00096">deplacementMaze()</a>.</p>
+
+</div>
+</div>
+<a id="af07e0791b437de9e5a71f602a0fe66f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af07e0791b437de9e5a71f602a0fe66f8">&#9670;&nbsp;</a></span>verifPoisonFeu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void verifPoisonFeu </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_joueur.html">Joueur</a> *&#160;</td>
+          <td class="paramname"><em>j</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Permet d'effectuer les évenements poison et feu en influant sur la vie du joueur. </p>
+<dl class="section author"><dt>Author</dt><dd>Paul Brechenmacher </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>(January 7th, 2024 11:12 AM) </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">j</td><td><a class="el" href="struct_joueur.html">Joueur</a> contenant sa vie et son nombre de tours restant avec EtatDanger != 0 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">j</td><td><a class="el" href="struct_joueur.html">Joueur</a> avec vie modifié et nombre de tours restant modifié </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="event_8c_source.html#l00359">359</a> of file <a class="el" href="event_8c_source.html">event.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;                              {</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <span class="keywordflow">if</span>(j-&gt;<a class="code" href="struct_joueur.html#a70675b072c1a4b2f8bd8a5d5e8efddaa">etatDangerJoueur</a> != <a class="code" href="structure_8h.html#a0482a72a4ccf5c8d008328482fab2098a427668c651361fbb362c97936dfdee43">ETAT_NON_DANGER</a>){</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;            <span class="keywordflow">if</span>(j-&gt;<a class="code" href="struct_joueur.html#a70675b072c1a4b2f8bd8a5d5e8efddaa">etatDangerJoueur</a> == <a class="code" href="structure_8h.html#a0482a72a4ccf5c8d008328482fab2098a1f46235740fa4179fa9c716901a93c58">ETAT_POISON</a>){</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;                <a class="code" href="affichage_8c.html#a66623ace96117b4592ce9dd67269946e">afficherUseItem</a>(<a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22aafa82716ce8ad7247f07e61a5d88ba01">POISON</a>);</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;                j-&gt;<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a>--;</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;                j-&gt;<a class="code" href="struct_joueur.html#a4c0c9136ec4392cb26ebae3683f72242">etatTourRestants</a>--;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;            }</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;            <span class="keywordflow">if</span>(j-&gt;<a class="code" href="struct_joueur.html#a70675b072c1a4b2f8bd8a5d5e8efddaa">etatDangerJoueur</a> == <a class="code" href="structure_8h.html#a0482a72a4ccf5c8d008328482fab2098a36f4921050f87383545bc596548036d4">ETAT_FEU</a>){</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                j-&gt;<a class="code" href="struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee">pvHealth</a>--;</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                <a class="code" href="affichage_8c.html#a66623ace96117b4592ce9dd67269946e">afficherUseItem</a>(<a class="code" href="structure_8h.html#aa8c0b30d56cd82613629274f264dff22a6811f08ec3a763b0351fab6fb5054df8">FIRE</a>);</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;                j-&gt;<a class="code" href="struct_joueur.html#a4c0c9136ec4392cb26ebae3683f72242">etatTourRestants</a>--;</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;            }</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        }</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="affichage_8c_source.html#l00196">afficherUseItem()</a>, <a class="el" href="structure_8h_source.html#l00014">ETAT_FEU</a>, <a class="el" href="structure_8h_source.html#l00014">ETAT_NON_DANGER</a>, <a class="el" href="structure_8h_source.html#l00014">ETAT_POISON</a>, <a class="el" href="structure_8h_source.html#l00064">Joueur::etatDangerJoueur</a>, <a class="el" href="structure_8h_source.html#l00065">Joueur::etatTourRestants</a>, <a class="el" href="structure_8h_source.html#l00012">FIRE</a>, <a class="el" href="structure_8h_source.html#l00012">POISON</a>, and <a class="el" href="structure_8h_source.html#l00060">Joueur::pvHealth</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00386">eventJoueur()</a>.</p>
 
 </div>
 </div>
@@ -1110,7 +1559,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="event_8h.html">event.h</a></li>
-    <li class="footer">Generated on Tue Jan 16 2024 21:48:57 for Projet P2 : The Maze by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Jan 19 2024 15:57:26 for Projet P2 : The Maze by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

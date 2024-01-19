@@ -148,8 +148,15 @@ Functions</h2></td></tr>
 <tr class="memitem:ab3a22d399e25972974cca9aa2d07b7db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="affichage_8c.html#ab3a22d399e25972974cca9aa2d07b7db">afficherAroundPlayer</a> (int **matrice, int n, int typeEmoji, int typeMode, <a class="el" href="struct_joueur.html">Joueur</a> joueur, int visionRange)</td></tr>
 <tr class="memdesc:ab3a22d399e25972974cca9aa2d07b7db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afficher le labyrinthe autour du joueur.  <a href="affichage_8c.html#ab3a22d399e25972974cca9aa2d07b7db">More...</a><br /></td></tr>
 <tr class="separator:ab3a22d399e25972974cca9aa2d07b7db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad12ebd5433891b4b09c88f220769d682"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="affichage_8c.html#ad12ebd5433891b4b09c88f220769d682">optionChange</a> (<a class="el" href="struct_options.html">Options</a> *options, char ***optionsTab)</td></tr>
-<tr class="separator:ad12ebd5433891b4b09c88f220769d682"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33d28d796499383da31d6aebf89bd0cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="affichage_8c.html#a33d28d796499383da31d6aebf89bd0cc">optionChange</a> (<a class="el" href="struct_options.html">Options</a> *options, char ***optionsTab)</td></tr>
+<tr class="memdesc:a33d28d796499383da31d6aebf89bd0cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Permet au joueur de choisir les options.  <a href="affichage_8c.html#a33d28d796499383da31d6aebf89bd0cc">More...</a><br /></td></tr>
+<tr class="separator:a33d28d796499383da31d6aebf89bd0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46475b12f361bad638b6a6bf014ef773"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="affichage_8c.html#a46475b12f361bad638b6a6bf014ef773">afficherJoueur</a> (int typeEmoji)</td></tr>
+<tr class="memdesc:a46475b12f361bad638b6a6bf014ef773"><td class="mdescLeft">&#160;</td><td class="mdescRight">Affiche le joueur en fonction du type d'émoji.  <a href="affichage_8c.html#a46475b12f361bad638b6a6bf014ef773">More...</a><br /></td></tr>
+<tr class="separator:a46475b12f361bad638b6a6bf014ef773"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70d78a84bf09aa24575f07835c51b32b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="affichage_8c.html#a70d78a84bf09aa24575f07835c51b32b">afficherMatrice1</a> (int **matrice, int n, int typeEmoji, int typeMode)</td></tr>
+<tr class="memdesc:a70d78a84bf09aa24575f07835c51b32b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Afficher le labyrinthe.  <a href="affichage_8c.html#a70d78a84bf09aa24575f07835c51b32b">More...</a><br /></td></tr>
+<tr class="separator:a70d78a84bf09aa24575f07835c51b32b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="abfa94e2cad7580e7e860ac28f5eeb61d"></a>
@@ -179,7 +186,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Permet d'afficher chaque case contenus dans l'arbre des chemins. </p>
-<dl class="section author"><dt>Author</dt><dd>Paul Brechenmacher </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Etienne Massonnet &amp; Paul Brechenmacher </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>(January 2nd, 2024 10:21 PM) </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -257,7 +264,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Afficher le labyrinthe autour du joueur. </p>
-<dl class="section author"><dt>Author</dt><dd>Paul Brechenmacher </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Etienne Massonnet &amp; Paul Brechenmacher </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>(January 7th, 2024 9:17 AM) </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -283,7 +290,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                    printf(<span class="stringliteral">&quot;🧱&quot;</span>); <span class="comment">// Mur</span></div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                    <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#aad83b5ec5f8d43384c666cf26865aaea">PLAYER</a>:</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                    <a class="code" href="game_8h.html#a46475b12f361bad638b6a6bf014ef773">afficherJoueur</a>(typeEmoji);</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                    <a class="code" href="affichage_8c.html#a46475b12f361bad638b6a6bf014ef773">afficherJoueur</a>(typeEmoji);</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                    <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a29fd18bed01c4d836c7ebfe73a125c3f">END</a>:</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                    printf(<span class="stringliteral">&quot;🏁&quot;</span>); <span class="comment">//Point d&#39;arrivée</span></div>
@@ -308,7 +315,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        printf(<span class="stringliteral">&quot;\n&quot;</span>);</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    }</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;}</div>
-<div class="ttc" id="agame_8h_html_a46475b12f361bad638b6a6bf014ef773"><div class="ttname"><a href="game_8h.html#a46475b12f361bad638b6a6bf014ef773">afficherJoueur</a></div><div class="ttdeci">void afficherJoueur(int typeEmoji)</div><div class="ttdoc">Affiche le joueur en fonction du type d'émoji.</div><div class="ttdef"><b>Definition:</b> <a href="generation_8c_source.html#l00096">generation.c:96</a></div></div>
+<div class="ttc" id="aaffichage_8c_html_a46475b12f361bad638b6a6bf014ef773"><div class="ttname"><a href="affichage_8c.html#a46475b12f361bad638b6a6bf014ef773">afficherJoueur</a></div><div class="ttdeci">void afficherJoueur(int typeEmoji)</div><div class="ttdoc">Affiche le joueur en fonction du type d'émoji.</div><div class="ttdef"><b>Definition:</b> <a href="affichage_8c_source.html#l00338">affichage.c:338</a></div></div>
 <div class="ttc" id="astruct_joueur_html_a9c9b676a3cd447265503c409674fd09d"><div class="ttname"><a href="struct_joueur.html#a9c9b676a3cd447265503c409674fd09d">Joueur::positions</a></div><div class="ttdeci">int positions[2]</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00062">structure.h:62</a></div></div>
 <div class="ttc" id="astructure_8h_html_a29fd18bed01c4d836c7ebfe73a125c3f"><div class="ttname"><a href="structure_8h.html#a29fd18bed01c4d836c7ebfe73a125c3f">END</a></div><div class="ttdeci">#define END</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00039">structure.h:39</a></div></div>
 <div class="ttc" id="astructure_8h_html_a5ff6e798033f03e74730e99f01936f84"><div class="ttname"><a href="structure_8h.html#a5ff6e798033f03e74730e99f01936f84">SPACE</a></div><div class="ttdeci">#define SPACE</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00038">structure.h:38</a></div></div>
@@ -319,7 +326,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="astructure_8h_html_adb2d584b1cc0870cdaf0f5cf1b0a8c6e"><div class="ttname"><a href="structure_8h.html#adb2d584b1cc0870cdaf0f5cf1b0a8c6e">CHECKPOINT</a></div><div class="ttdeci">#define CHECKPOINT</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00044">structure.h:44</a></div></div>
 <div class="ttc" id="astructure_8h_html_af5549de4a54dac2597f138f997c13286"><div class="ttname"><a href="structure_8h.html#af5549de4a54dac2597f138f997c13286">FIL</a></div><div class="ttdeci">#define FIL</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00045">structure.h:45</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="generation_8c_source.html#l00096">afficherJoueur()</a>, <a class="el" href="structure_8h_source.html#l00044">CHECKPOINT</a>, <a class="el" href="structure_8h_source.html#l00039">END</a>, <a class="el" href="structure_8h_source.html#l00043">EVENT</a>, <a class="el" href="structure_8h_source.html#l00045">FIL</a>, <a class="el" href="structure_8h_source.html#l00042">KEY</a>, <a class="el" href="structure_8h_source.html#l00041">PLAYER</a>, <a class="el" href="structure_8h_source.html#l00062">Joueur::positions</a>, <a class="el" href="structure_8h_source.html#l00038">SPACE</a>, and <a class="el" href="structure_8h_source.html#l00037">WALL</a>.</p>
+<p class="reference">References <a class="el" href="affichage_8c_source.html#l00338">afficherJoueur()</a>, <a class="el" href="structure_8h_source.html#l00044">CHECKPOINT</a>, <a class="el" href="structure_8h_source.html#l00039">END</a>, <a class="el" href="structure_8h_source.html#l00043">EVENT</a>, <a class="el" href="structure_8h_source.html#l00045">FIL</a>, <a class="el" href="structure_8h_source.html#l00042">KEY</a>, <a class="el" href="structure_8h_source.html#l00041">PLAYER</a>, <a class="el" href="structure_8h_source.html#l00062">Joueur::positions</a>, <a class="el" href="structure_8h_source.html#l00038">SPACE</a>, and <a class="el" href="structure_8h_source.html#l00037">WALL</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="game_8c_source.html#l00056">jouerMaze()</a>.</p>
 
@@ -342,7 +349,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Permet d'afficher l'inventaire du joueur et sa vie. </p>
-<dl class="section author"><dt>Author</dt><dd>Paul Brechenmacher </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Etienne Massonnet &amp; Paul Brechenmacher </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>(January 7th, 2024 9:17 AM) </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -373,6 +380,57 @@ Functions</h2></td></tr>
 <p class="reference">References <a class="el" href="affichage_8c_source.html#l00235">afficherKey()</a>, <a class="el" href="affichage_8c_source.html#l00165">emoji()</a>, <a class="el" href="structure_8h_source.html#l00067">Joueur::findKeys</a>, <a class="el" href="structure_8h_source.html#l00061">Joueur::inventaire</a>, <a class="el" href="structure_8h_source.html#l00101">Jeu::j</a>, <a class="el" href="structure_8h_source.html#l00106">Jeu::maze</a>, <a class="el" href="structure_8h_source.html#l00060">Joueur::pvHealth</a>, <a class="el" href="structure_8h_source.html#l00022">reset</a>, <a class="el" href="structure_8h_source.html#l00055">Item::type</a>, and <a class="el" href="structure_8h_source.html#l00082">Maze::typeMaze</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="game_8c_source.html#l00056">jouerMaze()</a>.</p>
+
+</div>
+</div>
+<a id="a46475b12f361bad638b6a6bf014ef773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46475b12f361bad638b6a6bf014ef773">&#9670;&nbsp;</a></span>afficherJoueur()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">afficherJoueur </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>typeEmoji</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Affiche le joueur en fonction du type d'émoji. </p>
+<dl class="section author"><dt>Author</dt><dd>Etienne Massonnet &amp; Paul Brechenmacher </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>(January 9th, 2024 9:22 PM) </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">int</td><td>typeEmoji </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="affichage_8c_source.html#l00338">338</a> of file <a class="el" href="affichage_8c_source.html">affichage.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                                  {</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <span class="keywordflow">switch</span> (typeEmoji) {</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        <span class="keywordflow">case</span> 0:</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;            printf(<span class="stringliteral">&quot;👾&quot;</span>); <span class="comment">// Joueur</span></div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <span class="keywordflow">case</span> 1:</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;            printf(<span class="stringliteral">&quot;🤡&quot;</span>); <span class="comment">// Joueur</span></div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <span class="keywordflow">case</span> 2:</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;            printf(<span class="stringliteral">&quot;💎&quot;</span>); <span class="comment">// Joueur</span></div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        <span class="keywordflow">case</span> 3:</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;            printf(<span class="stringliteral">&quot;👽&quot;</span>);</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        <span class="keywordflow">case</span> 4:</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;            printf(<span class="stringliteral">&quot;⚽&quot;</span>);</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    }</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="affichage_8c_source.html#l00251">afficherAroundPlayer()</a>, and <a class="el" href="affichage_8c_source.html#l00359">afficherMatrice1()</a>.</p>
 
 </div>
 </div>
@@ -418,6 +476,112 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a70d78a84bf09aa24575f07835c51b32b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70d78a84bf09aa24575f07835c51b32b">&#9670;&nbsp;</a></span>afficherMatrice1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">afficherMatrice1 </td>
+          <td>(</td>
+          <td class="paramtype">int **&#160;</td>
+          <td class="paramname"><em>matrice</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>taille</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>typeEmoji</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>typeMode</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Afficher le labyrinthe. </p>
+<dl class="section author"><dt>Author</dt><dd>Gabin Alquier </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>(January 7th, 2024 9:17 AM) </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">matrice</td><td>Tableau 2D représentant le maze </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">taille,typeEmoji,typeMode</td><td>taille du maze, type d'émoji et type de mode </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="affichage_8c_source.html#l00359">359</a> of file <a class="el" href="affichage_8c_source.html">affichage.c</a>.</p>
+<div class="fragment"><div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;                                                                         {</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;   <span class="comment">// Afficher la matrice avec des symboles correspondant aux éléments</span></div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;   <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; n; i++){</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> j =0; j &lt; n; j++){</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;            <span class="keywordflow">switch</span> (matrice[i][j]) {</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a5ff6e798033f03e74730e99f01936f84">SPACE</a>:</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;                    printf(<span class="stringliteral">&quot;  &quot;</span>); <span class="comment">// Espace vide</span></div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#ac749b87dd5d843e4add3eb8e8a130f62">WALL</a>:</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                    <span class="keywordflow">if</span>(typeMode != 3){</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;                        printf(<span class="stringliteral">&quot;🧱&quot;</span>); <span class="comment">// Mur</span></div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;                    }<span class="keywordflow">else</span>{</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;                        printf(<span class="stringliteral">&quot;  &quot;</span>); <span class="comment">//Mur invisible</span></div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;                    }</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#aad83b5ec5f8d43384c666cf26865aaea">PLAYER</a>:</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;                    <a class="code" href="affichage_8c.html#a46475b12f361bad638b6a6bf014ef773">afficherJoueur</a>(typeEmoji);</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a29fd18bed01c4d836c7ebfe73a125c3f">END</a>:</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;                    printf(<span class="stringliteral">&quot;🏁&quot;</span>); <span class="comment">//Point d&#39;arrivée</span></div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a7877e997621e1161f058fce90febd464">EVENT</a>:</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;                    printf(<span class="stringliteral">&quot;❔&quot;</span>);</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a8ae9d53f33f46cfcfcb9736e6351452a">KEY</a>:</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;                    printf(<span class="stringliteral">&quot;🗝️ &quot;</span>);</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#adb2d584b1cc0870cdaf0f5cf1b0a8c6e">CHECKPOINT</a>:</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;                    printf(<span class="stringliteral">&quot;🚩&quot;</span>);</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af5549de4a54dac2597f138f997c13286">FIL</a>:</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;                    printf(<span class="stringliteral">&quot;🔹&quot;</span>);</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a87b537f5fa5c109d3c05c13d6b18f382">WHITE</a>:</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;                    printf(<span class="stringliteral">&quot;⬜&quot;</span>);</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#a79d10e672abb49ad63eeaa8aaef57c38">BLUE</a>:</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;                    printf(<span class="stringliteral">&quot;🟦&quot;</span>);</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;                <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;                    <span class="keywordflow">break</span>; </div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;            }</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160; </div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        }</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        printf(<span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    }</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;}</div>
+<div class="ttc" id="astructure_8h_html_a79d10e672abb49ad63eeaa8aaef57c38"><div class="ttname"><a href="structure_8h.html#a79d10e672abb49ad63eeaa8aaef57c38">BLUE</a></div><div class="ttdeci">#define BLUE</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00046">structure.h:46</a></div></div>
+<div class="ttc" id="astructure_8h_html_a87b537f5fa5c109d3c05c13d6b18f382"><div class="ttname"><a href="structure_8h.html#a87b537f5fa5c109d3c05c13d6b18f382">WHITE</a></div><div class="ttdeci">#define WHITE</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00047">structure.h:47</a></div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="affichage_8c_source.html#l00338">afficherJoueur()</a>, <a class="el" href="structure_8h_source.html#l00046">BLUE</a>, <a class="el" href="structure_8h_source.html#l00044">CHECKPOINT</a>, <a class="el" href="structure_8h_source.html#l00039">END</a>, <a class="el" href="structure_8h_source.html#l00043">EVENT</a>, <a class="el" href="structure_8h_source.html#l00045">FIL</a>, <a class="el" href="structure_8h_source.html#l00042">KEY</a>, <a class="el" href="structure_8h_source.html#l00041">PLAYER</a>, <a class="el" href="structure_8h_source.html#l00038">SPACE</a>, <a class="el" href="structure_8h_source.html#l00037">WALL</a>, and <a class="el" href="structure_8h_source.html#l00047">WHITE</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="generation_8c_source.html#l00469">findCheck()</a>, <a class="el" href="game_8c_source.html#l00056">jouerMaze()</a>, and <a class="el" href="generation_8c_source.html#l00488">verifCheck()</a>.</p>
+
+</div>
+</div>
 <a id="a0e15d55447aa6ecd2551aee4c9aeffcd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0e15d55447aa6ecd2551aee4c9aeffcd">&#9670;&nbsp;</a></span>afficherScore()</h2>
 
@@ -445,7 +609,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Affiche le score et le niveau du joueur. </p>
-<dl class="section author"><dt>Author</dt><dd>Paul Brechenmacher </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Etienne Massonnet &amp; Paul Brechenmacher </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>(January 7th, 2024 9:17 AM) </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -494,7 +658,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Permet d'afficher un objet rencontré ou utilisé dans le labyrinthe. </p>
-<dl class="section author"><dt>Author</dt><dd>Paul Brechenmacher </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Etienne Massonnet &amp; Paul Brechenmacher </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>(January 7th, 2024 9:17 AM) </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -512,7 +676,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="affichage_8c_source.html#l00165">emoji()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00355">verifEtatEvent()</a>, and <a class="el" href="event_8c_source.html#l00340">verifPoisonFeu()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00374">verifEtatEvent()</a>, and <a class="el" href="event_8c_source.html#l00359">verifPoisonFeu()</a>.</p>
 
 </div>
 </div>
@@ -583,7 +747,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                        jeuLance = 1;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                    <span class="keywordflow">case</span> 1:</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                        <a class="code" href="affichage_8c.html#ad12ebd5433891b4b09c88f220769d682">optionChange</a>(options,optionsTab);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                        <a class="code" href="affichage_8c.html#a33d28d796499383da31d6aebf89bd0cc">optionChange</a>(options,optionsTab);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                        <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                    <span class="keywordflow">case</span> 2:</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                        <a class="code" href="affichage_8c.html#afac8f258c79e3d09b381a77b16f4c961">regle</a>(options);</div>
@@ -612,9 +776,9 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="comment">// }</span></div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="comment">// free(optionsTab);</span></div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;}</div>
-<div class="ttc" id="aaffichage_8c_html_ad12ebd5433891b4b09c88f220769d682"><div class="ttname"><a href="affichage_8c.html#ad12ebd5433891b4b09c88f220769d682">optionChange</a></div><div class="ttdeci">void optionChange(Options *options, char ***optionsTab)</div><div class="ttdef"><b>Definition:</b> <a href="affichage_8c_source.html#l00291">affichage.c:291</a></div></div>
+<div class="ttc" id="aaffichage_8c_html_a33d28d796499383da31d6aebf89bd0cc"><div class="ttname"><a href="affichage_8c.html#a33d28d796499383da31d6aebf89bd0cc">optionChange</a></div><div class="ttdeci">void optionChange(Options *options, char ***optionsTab)</div><div class="ttdoc">Permet au joueur de choisir les options.</div><div class="ttdef"><b>Definition:</b> <a href="affichage_8c_source.html#l00291">affichage.c:291</a></div></div>
 <div class="ttc" id="aaffichage_8c_html_afac8f258c79e3d09b381a77b16f4c961"><div class="ttname"><a href="affichage_8c.html#afac8f258c79e3d09b381a77b16f4c961">regle</a></div><div class="ttdeci">void regle(Options *options)</div><div class="ttdoc">affiche les règles du jeu</div><div class="ttdef"><b>Definition:</b> <a href="affichage_8c_source.html#l00081">affichage.c:81</a></div></div>
-<div class="ttc" id="aevent_8c_html_ad3b801a7afea53763a5433b42d4d54cd"><div class="ttname"><a href="event_8c.html#ad3b801a7afea53763a5433b42d4d54cd">deplacementTouche</a></div><div class="ttdeci">char deplacementTouche(int etatJoueur)</div><div class="ttdoc">Permet de capturer une touche utiliser par l'utilisateur et interprète cette entrée en fonction de l'...</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00010">event.c:10</a></div></div>
+<div class="ttc" id="aevent_8c_html_ad3b801a7afea53763a5433b42d4d54cd"><div class="ttname"><a href="event_8c.html#ad3b801a7afea53763a5433b42d4d54cd">deplacementTouche</a></div><div class="ttdeci">char deplacementTouche(int etatJoueur)</div><div class="ttdoc">Permet de capturer une touche utilisée par l'utilisateur et interprète cette entrée en fonction de l'...</div><div class="ttdef"><b>Definition:</b> <a href="event_8c_source.html#l00011">event.c:11</a></div></div>
 <div class="ttc" id="agame_8c_html_ae65e3cd5b3428caf5c90227bc086089c"><div class="ttname"><a href="game_8c.html#ae65e3cd5b3428caf5c90227bc086089c">initOptions</a></div><div class="ttdeci">void initOptions(char ****optionsTab, Options *options)</div><div class="ttdoc">Permet d'initialiser et d'allouer les options et les tableaux du menu options</div><div class="ttdef"><b>Definition:</b> <a href="game_8c_source.html#l00298">game.c:298</a></div></div>
 <div class="ttc" id="astructure_8h_html_a003f38f51e5f6972a6a0796bda4ca11c"><div class="ttname"><a href="structure_8h.html#a003f38f51e5f6972a6a0796bda4ca11c">BGRN</a></div><div class="ttdeci">#define BGRN</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00018">structure.h:18</a></div></div>
 <div class="ttc" id="astructure_8h_html_abd7bcdd3b14eec4414469f88f2bd8f12"><div class="ttname"><a href="structure_8h.html#abd7bcdd3b14eec4414469f88f2bd8f12">BAS</a></div><div class="ttdeci">#define BAS</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00026">structure.h:26</a></div></div>
@@ -622,7 +786,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="astructure_8h_html_ad9b09e684de737ac98f27d49c7778bb7a62dbc8350c17b44d1269eb737f9c641e"><div class="ttname"><a href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7a62dbc8350c17b44d1269eb737f9c641e">ETAT_MENU</a></div><div class="ttdeci">@ ETAT_MENU</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00013">structure.h:13</a></div></div>
 <div class="ttc" id="astructure_8h_html_af4bced5cf8ed55746d4b5d34f9a0fe39"><div class="ttname"><a href="structure_8h.html#af4bced5cf8ed55746d4b5d34f9a0fe39">ENTER</a></div><div class="ttdeci">#define ENTER</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00034">structure.h:34</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="structure_8h_source.html#l00026">BAS</a>, <a class="el" href="structure_8h_source.html#l00018">BGRN</a>, <a class="el" href="event_8c_source.html#l00010">deplacementTouche()</a>, <a class="el" href="structure_8h_source.html#l00034">ENTER</a>, <a class="el" href="structure_8h_source.html#l00013">ETAT_MENU</a>, <a class="el" href="structure_8h_source.html#l00025">HAUT</a>, <a class="el" href="game_8c_source.html#l00298">initOptions()</a>, <a class="el" href="affichage_8c_source.html#l00291">optionChange()</a>, <a class="el" href="affichage_8c_source.html#l00081">regle()</a>, and <a class="el" href="structure_8h_source.html#l00022">reset</a>.</p>
+<p class="reference">References <a class="el" href="structure_8h_source.html#l00026">BAS</a>, <a class="el" href="structure_8h_source.html#l00018">BGRN</a>, <a class="el" href="event_8c_source.html#l00011">deplacementTouche()</a>, <a class="el" href="structure_8h_source.html#l00034">ENTER</a>, <a class="el" href="structure_8h_source.html#l00013">ETAT_MENU</a>, <a class="el" href="structure_8h_source.html#l00025">HAUT</a>, <a class="el" href="game_8c_source.html#l00298">initOptions()</a>, <a class="el" href="affichage_8c_source.html#l00291">optionChange()</a>, <a class="el" href="affichage_8c_source.html#l00081">regle()</a>, and <a class="el" href="structure_8h_source.html#l00022">reset</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="main_8c_source.html#l00005">main()</a>, and <a class="el" href="affichage_8c_source.html#l00081">regle()</a>.</p>
 
@@ -645,7 +809,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Permet d'afficher les émojis selon l'item rencontré ou utilisé </p>
-<dl class="section author"><dt>Author</dt><dd>Paul Brechenmacher </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Etienne Massonnet &amp; Paul Brechenmacher </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>(January 7th, 2024 9:17 AM) </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -721,7 +885,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Calcule la longueur d'un entier. </p>
-<dl class="section author"><dt>Author</dt><dd>Paul Brechenmacher </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Etienne Massonnet &amp; Paul Brechenmacher </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>(January 7th, 2024 9:17 AM) </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -822,13 +986,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    fclose(arsenal);</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;}</div>
-<div class="ttc" id="ageneration_8c_html_a21dea88c24475e779e3f5c5b6bfe1d93"><div class="ttname"><a href="generation_8c.html#a21dea88c24475e779e3f5c5b6bfe1d93">allouerTab2</a></div><div class="ttdeci">void allouerTab2(int ***tab, int taille)</div><div class="ttdoc">Alloue les tableaux 2D.</div><div class="ttdef"><b>Definition:</b> <a href="generation_8c_source.html#l00174">generation.c:174</a></div></div>
-<div class="ttc" id="astructure_8h_html_a79d10e672abb49ad63eeaa8aaef57c38"><div class="ttname"><a href="structure_8h.html#a79d10e672abb49ad63eeaa8aaef57c38">BLUE</a></div><div class="ttdeci">#define BLUE</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00046">structure.h:46</a></div></div>
-<div class="ttc" id="astructure_8h_html_a87b537f5fa5c109d3c05c13d6b18f382"><div class="ttname"><a href="structure_8h.html#a87b537f5fa5c109d3c05c13d6b18f382">WHITE</a></div><div class="ttdeci">#define WHITE</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00047">structure.h:47</a></div></div>
+<div class="ttc" id="ageneration_8c_html_a21dea88c24475e779e3f5c5b6bfe1d93"><div class="ttname"><a href="generation_8c.html#a21dea88c24475e779e3f5c5b6bfe1d93">allouerTab2</a></div><div class="ttdeci">void allouerTab2(int ***tab, int taille)</div><div class="ttdoc">Alloue les tableaux 2D.</div><div class="ttdef"><b>Definition:</b> <a href="generation_8c_source.html#l00105">generation.c:105</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="generation_8c_source.html#l00174">allouerTab2()</a>, <a class="el" href="structure_8h_source.html#l00046">BLUE</a>, <a class="el" href="structure_8h_source.html#l00039">END</a>, <a class="el" href="structure_8h_source.html#l00038">SPACE</a>, <a class="el" href="structure_8h_source.html#l00037">WALL</a>, and <a class="el" href="structure_8h_source.html#l00047">WHITE</a>.</p>
+<p class="reference">References <a class="el" href="generation_8c_source.html#l00105">allouerTab2()</a>, <a class="el" href="structure_8h_source.html#l00046">BLUE</a>, <a class="el" href="structure_8h_source.html#l00039">END</a>, <a class="el" href="structure_8h_source.html#l00038">SPACE</a>, <a class="el" href="structure_8h_source.html#l00037">WALL</a>, and <a class="el" href="structure_8h_source.html#l00047">WHITE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00263">verifEvent()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="event_8c_source.html#l00282">verifEvent()</a>.</p>
 
 </div>
 </div>
@@ -876,14 +1038,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ad12ebd5433891b4b09c88f220769d682"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad12ebd5433891b4b09c88f220769d682">&#9670;&nbsp;</a></span>optionChange()</h2>
+<a id="a33d28d796499383da31d6aebf89bd0cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33d28d796499383da31d6aebf89bd0cc">&#9670;&nbsp;</a></span>optionChange()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void optionChange </td>
+          <td class="memname">optionChange </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="struct_options.html">Options</a> *&#160;</td>
           <td class="paramname"><em>options</em>, </td>
@@ -901,6 +1063,18 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Permet au joueur de choisir les options. </p>
+<dl class="section author"><dt>Author</dt><dd>Etienne Massonnet &amp; Paul Brechenmacher </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>(January 7th, 2024 9:17 AM) </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">options</td><td><a class="el" href="struct_options.html">Options</a> par défaut </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">optionsTab</td><td>Tableau 2D pour l'affichage du menu </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">option</td><td><a class="el" href="struct_options.html">Options</a> modifiés choisis par le joueur </td></tr>
+  </table>
+  </dd>
+</dl>
 
 <p class="definition">Definition at line <a class="el" href="affichage_8c_source.html#l00291">291</a> of file <a class="el" href="affichage_8c_source.html">affichage.c</a>.</p>
 <div class="fragment"><div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                                                      {</div>
@@ -956,7 +1130,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="astructure_8h_html_af07f8bf974fdf76afd17f2b97ac15a22"><div class="ttname"><a href="structure_8h.html#af07f8bf974fdf76afd17f2b97ac15a22">GAUCHE</a></div><div class="ttdeci">#define GAUCHE</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00027">structure.h:27</a></div></div>
 <div class="ttc" id="astructure_8h_html_af625d3f3bc022848a558f2b18def5b15"><div class="ttname"><a href="structure_8h.html#af625d3f3bc022848a558f2b18def5b15">DROITE</a></div><div class="ttdeci">#define DROITE</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00028">structure.h:28</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="structure_8h_source.html#l00026">BAS</a>, <a class="el" href="structure_8h_source.html#l00018">BGRN</a>, <a class="el" href="structure_8h_source.html#l00021">BPUR</a>, <a class="el" href="event_8c_source.html#l00010">deplacementTouche()</a>, <a class="el" href="structure_8h_source.html#l00028">DROITE</a>, <a class="el" href="structure_8h_source.html#l00034">ENTER</a>, <a class="el" href="structure_8h_source.html#l00013">ETAT_OPTION</a>, <a class="el" href="structure_8h_source.html#l00027">GAUCHE</a>, <a class="el" href="game_8c_source.html#l00348">getOptions()</a>, <a class="el" href="structure_8h_source.html#l00025">HAUT</a>, <a class="el" href="structure_8h_source.html#l00022">reset</a>, and <a class="el" href="game_8c_source.html#l00334">saveOptions()</a>.</p>
+<p class="reference">References <a class="el" href="structure_8h_source.html#l00026">BAS</a>, <a class="el" href="structure_8h_source.html#l00018">BGRN</a>, <a class="el" href="structure_8h_source.html#l00021">BPUR</a>, <a class="el" href="event_8c_source.html#l00011">deplacementTouche()</a>, <a class="el" href="structure_8h_source.html#l00028">DROITE</a>, <a class="el" href="structure_8h_source.html#l00034">ENTER</a>, <a class="el" href="structure_8h_source.html#l00013">ETAT_OPTION</a>, <a class="el" href="structure_8h_source.html#l00027">GAUCHE</a>, <a class="el" href="game_8c_source.html#l00348">getOptions()</a>, <a class="el" href="structure_8h_source.html#l00025">HAUT</a>, <a class="el" href="structure_8h_source.html#l00022">reset</a>, and <a class="el" href="game_8c_source.html#l00334">saveOptions()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="affichage_8c_source.html#l00022">choixMenu()</a>.</p>
 
@@ -979,7 +1153,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>affiche les règles du jeu </p>
-<dl class="section author"><dt>Author</dt><dd>Paul Brechenmacher </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Etienne Massonnet &amp; Paul Brechenmacher </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>(January 9th, 2024 5:00 PM) </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -995,9 +1169,9 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">while</span>(!lecture){</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        system(<span class="stringliteral">&quot;clear&quot;</span>);</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        printf(<span class="stringliteral">&quot;\n &quot;</span><span class="stringliteral">&quot;\e[4;33m&quot;</span><span class="stringliteral">&quot;Le Labyrinthe :&quot;</span>);</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        printf(<span class="stringliteral">&quot;\n\n&quot;</span><span class="stringliteral">&quot;\e[0m&quot;</span><span class="stringliteral">&quot;\e[1;97m&quot;</span><span class="stringliteral">&quot; Le jeu est plutôt simple et facile à comprendre.\n Il suffit de déplacer le personnage jusqu&#39;à l&#39;arrivée 🏁.\n\n&quot;</span><span class="stringliteral">&quot;\e[1;32m&quot;</span><span class="stringliteral">&quot; Les déplacements sont réalisés en utilisant :\n - Z pour aller vers le haut ➡️ \n - Q pour aller vers la gauche ➡️\n - S pour aller vers le bas ⬇️\n - D pour aller vers la droite ➡️\n\n Sur votre route, vous aurez la possibilité de récupérer des bonus ou des malus : \n - Touches numériques 1️⃣ /2️⃣ /3️⃣ /4️⃣ /5️⃣  pour utiliser l&#39;item depuis votre inventaire\n\n &quot;</span><span class="stringliteral">&quot;\e[4;37m&quot;</span><span class="stringliteral">&quot;Leurs effets sont les suivants :&quot;</span><span class="stringliteral">&quot;\e[0m&quot;</span><span class="stringliteral">&quot;\e[1;37m&quot;</span><span class="stringliteral">&quot;\n\n - Pièce d&#39;or 🪙 : bonus de points de score\n - Médicament 💊 : soigne 2 ❤️\n - Ambulance 🚑 : soigne 5 ❤️\n - Chute de pierres 🤕 : perte de 2 ❤️\n - Piège à flammes 🔥 : perte de ❤️  sur la durée\n - Poison 🧪 : perte plus intense de ❤️  sur la durée\n - Champagne 🍾 : perturbe la vision et l&#39;estimation des distances, augmente la sensibilité à l&#39;éblouissement, altère la coordination des mouvements. (à consommer avec modération)\n - Lait 🥛 : annule les effets du poison, du champagne et même du feu ! (à consommer sans modération)\n - Fil d&#39;Ariane 🧶 : indique la sortie du labyrinthe, si elle est accessible.\n\n &quot;</span><span class="stringliteral">&quot;\e[4;37m&quot;</span><span class="stringliteral">&quot;Modes de jeu :&quot;</span><span class="stringliteral">&quot;\e[0m&quot;</span><span class="stringliteral">&quot;\e[1;37m&quot;</span><span class="stringliteral">&quot;\n Les modes EASY, NORMAL et HARD influent sur la vie de départ du joueur.\n À vous de découvrir les secrets des autres modes...\n\n Notes pour le mode &quot;</span><span class="stringliteral">&quot;\e[1;93m&quot;</span><span class="stringliteral">&quot;Player&quot;</span><span class="stringliteral">&quot;\e[1;97m&quot;</span><span class="stringliteral">&quot; :\n - Le champagne 🍾 diminue le champ de vision du joueur, jusqu&#39;à être guéri par un verre de lait 🥛.\n - Le saxophone 🎷 augmente le champ de vision du joueur.\n\n\n&quot;</span><span class="stringliteral">&quot;\e[3;37m&quot;</span><span class="stringliteral">&quot; Ce jeu a été realisé par Paul Brechenmacher, Paul Le Blanc, Etienne Massonnet et Gabin Alquier pour un projet de fin de premier semestre 2023-2024.&quot;</span>);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        printf(<span class="stringliteral">&quot;\n\n&quot;</span><span class="stringliteral">&quot;\e[0m&quot;</span><span class="stringliteral">&quot;\e[1;97m&quot;</span><span class="stringliteral">&quot; Le jeu est plutôt simple et facile à comprendre.\n Il suffit de déplacer le personnage jusqu&#39;à l&#39;arrivée 🏁.\n\n&quot;</span><span class="stringliteral">&quot;\e[1;32m&quot;</span><span class="stringliteral">&quot; Les déplacements sont réalisés en utilisant :\n - Z pour aller vers le haut ⬆️ \n - Q pour aller vers la gauche ⬅️\n - S pour aller vers le bas ⬇️\n - D pour aller vers la droite ➡️\n\n Sur votre route, vous aurez la possibilité de récupérer des bonus ou des malus : \n - Touches numériques 1️⃣ /2️⃣ /3️⃣ /4️⃣ /5️⃣  pour utiliser l&#39;item depuis votre inventaire\n\n &quot;</span><span class="stringliteral">&quot;\e[4;37m&quot;</span><span class="stringliteral">&quot;Leurs effets sont les suivants :&quot;</span><span class="stringliteral">&quot;\e[0m&quot;</span><span class="stringliteral">&quot;\e[1;37m&quot;</span><span class="stringliteral">&quot;\n\n - Pièce d&#39;or 🪙 : bonus de points de score\n - Médicament 💊 : soigne 2 ❤️\n - Ambulance 🚑 : soigne 5 ❤️\n - Chute de pierres 🤕 : perte de 2 ❤️\n - Piège à flammes 🔥 : perte de ❤️  sur la durée\n - Poison 🧪 : perte plus intense de ❤️  sur la durée\n - Champagne 🍾 : perturbe la vision et l&#39;estimation des distances, augmente la sensibilité à l&#39;éblouissement, altère la coordination des mouvements. (à consommer avec modération)\n - Lait 🥛 : annule les effets du poison, du champagne et même du feu ! (à consommer sans modération)\n - Fil d&#39;Ariane 🧶 : indique la sortie du labyrinthe, si elle est accessible.\n\n &quot;</span><span class="stringliteral">&quot;\e[4;37m&quot;</span><span class="stringliteral">&quot;Modes de jeu :&quot;</span><span class="stringliteral">&quot;\e[0m&quot;</span><span class="stringliteral">&quot;\e[1;37m&quot;</span><span class="stringliteral">&quot;\n Les modes EASY, NORMAL et HARD influent sur la vie de départ du joueur.\n À vous de découvrir les secrets des autres modes...\n\n Notes pour le mode &quot;</span><span class="stringliteral">&quot;\e[1;93m&quot;</span><span class="stringliteral">&quot;Player&quot;</span><span class="stringliteral">&quot;\e[1;97m&quot;</span><span class="stringliteral">&quot; :\n - Le champagne 🍾 diminue le champ de vision du joueur, jusqu&#39;à être guéri par un verre de lait 🥛.\n - Le saxophone 🎷 augmente le champ de vision du joueur.\n\n\n&quot;</span><span class="stringliteral">&quot;\e[3;37m&quot;</span><span class="stringliteral">&quot; Ce jeu a été realisé par Paul Brechenmacher, Paul Le Blanc, Etienne Massonnet et Gabin Alquier pour un projet de fin de premier semestre 2023-2024.&quot;</span>);</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        printf(<span class="stringliteral">&quot;\n\n    Pour quitter et lancer le jeu, appuyez sur &#39;Entrée&#39;&quot;</span><span class="stringliteral">&quot;\e[0m  &quot;</span>);</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        printf(<span class="stringliteral">&quot;\e[3;95m&quot;</span><span class="stringliteral">&quot;\n\n\n\n\n\n\n\n    Un aventurier maquillé\n      Maniant un instrument cuivré\n        Dans le dédale embrumé il ose s&#39;aventurer,\n        D&#39;un club légendaire il souhaite percer les secrets\n&quot;</span><a class="code" href="structure_8h.html#a01de9e6a115c86e1c2b8747df2b28925">reset</a>);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        printf(<span class="stringliteral">&quot;\e[3;95m&quot;</span><span class="stringliteral">&quot;\n\n\n\n\n\n\n    Un aventurier maquillé\n      Maniant un instrument cuivré\n        Dans le dédale embrumé il ose s&#39;aventurer,\n          D&#39;un club légendaire il souhaite percer les secrets\n&quot;</span><a class="code" href="structure_8h.html#a01de9e6a115c86e1c2b8747df2b28925">reset</a>);</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">switch</span>(<a class="code" href="event_8c.html#ad3b801a7afea53763a5433b42d4d54cd">deplacementTouche</a>(<a class="code" href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7a5f7b22c27596f08e8dd6396dabb57354">ETAT_ENTER</a>)){</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="structure_8h.html#af4bced5cf8ed55746d4b5d34f9a0fe39">ENTER</a>:</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                lecture=1;</div>
@@ -1011,7 +1185,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="aaffichage_8c_html_a7912ea8a8a431c4455a84335a7123ca6"><div class="ttname"><a href="affichage_8c.html#a7912ea8a8a431c4455a84335a7123ca6">lireMenu</a></div><div class="ttdeci">char ** lireMenu()</div><div class="ttdoc">Prépare l'affichage du menu de début de jeu.</div><div class="ttdef"><b>Definition:</b> <a href="affichage_8c_source.html#l00006">affichage.c:6</a></div></div>
 <div class="ttc" id="astructure_8h_html_ad9b09e684de737ac98f27d49c7778bb7a5f7b22c27596f08e8dd6396dabb57354"><div class="ttname"><a href="structure_8h.html#ad9b09e684de737ac98f27d49c7778bb7a5f7b22c27596f08e8dd6396dabb57354">ETAT_ENTER</a></div><div class="ttdeci">@ ETAT_ENTER</div><div class="ttdef"><b>Definition:</b> <a href="structure_8h_source.html#l00013">structure.h:13</a></div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="affichage_8c_source.html#l00022">choixMenu()</a>, <a class="el" href="event_8c_source.html#l00010">deplacementTouche()</a>, <a class="el" href="structure_8h_source.html#l00034">ENTER</a>, <a class="el" href="structure_8h_source.html#l00013">ETAT_ENTER</a>, <a class="el" href="affichage_8c_source.html#l00006">lireMenu()</a>, and <a class="el" href="structure_8h_source.html#l00022">reset</a>.</p>
+<p class="reference">References <a class="el" href="affichage_8c_source.html#l00022">choixMenu()</a>, <a class="el" href="event_8c_source.html#l00011">deplacementTouche()</a>, <a class="el" href="structure_8h_source.html#l00034">ENTER</a>, <a class="el" href="structure_8h_source.html#l00013">ETAT_ENTER</a>, <a class="el" href="affichage_8c_source.html#l00006">lireMenu()</a>, and <a class="el" href="structure_8h_source.html#l00022">reset</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="affichage_8c_source.html#l00022">choixMenu()</a>.</p>
 
@@ -1035,7 +1209,7 @@ Functions</h2></td></tr>
 
 <p>Permet d'espacer correctement seulement la taille du score du joueur <br  />
  </p>
-<dl class="section author"><dt>Author</dt><dd>Paul Brechenmacher </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Etienne Massonnet &amp; Paul Brechenmacher </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>(January 7th, 2024 9:17 AM) </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -1063,7 +1237,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="affichage_8c.html">affichage.c</a></li>
-    <li class="footer">Generated on Tue Jan 16 2024 21:48:57 for Projet P2 : The Maze by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Jan 19 2024 15:57:26 for Projet P2 : The Maze by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

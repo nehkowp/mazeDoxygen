@@ -7,7 +7,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Projet P2 : The Maze: README</title>
+<title>Projet P2 : The Maze: &quot;THE MAZE&quot; par l&#39;équipe WCKD</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -95,50 +95,102 @@ $(document).ready(function(){initNavTree('md__r_e_a_d_m_e.html',''); initResizab
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">README </div>  </div>
+<div class="title">"THE MAZE" par l'équipe WCKD </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Pour plus d'information sur la documentation : <a href="https://nehkowp.github.io/mazeDoxygen/index.html">https://nehkowp.github.io/mazeDoxygen/index.html</a></p>
-<p>Pour compiler et exécuter votre programme : make ./exe make clean (pour supprimer les .o)</p>
-<p>Le jeu est plutôt simple et facile à comprendre. Il suffit de déplacer le personnage jusqu'à l'arrivée 🏁.</p>
-<p>Les déplacements sont réalisés en utilisant :</p><ul>
-<li>Z pour aller vers le haut ➡️</li>
-<li>Q pour aller vers la gauche ➡️</li>
+<div class="textblock"><p>Bienvenue dans le labyrinthe. En sortirez-vous vivants ?</p>
+<h1><a class="anchor" id="autotoc_md1"></a>
+Documentation des fonctions et structures</h1>
+<p><a href="https://nehkowp.github.io/mazeDoxygen/index.html">https://nehkowp.github.io/mazeDoxygen/index.html</a></p>
+<h1><a class="anchor" id="autotoc_md2"></a>
+Installation</h1>
+<p>Pour compiler puis exécuter le programme : </p><div class="fragment"><div class="line">make</div>
+<div class="line">./exe</div>
+</div><!-- fragment --><p> Et pour nettoyer : </p><div class="fragment"><div class="line">make clean</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
+Utilisation</h1>
+<p>À l'exécution du programme grâce à la commande ./exe, le menu principal apparaît. L'utilisateur peut alors choisir entre lancer une partie avec les paramètres par défaut, accéder au menu des options ou consulter les règles du jeu. Le choix se fait grâce aux touches Z (haut) et S (bas) puis la touche ENTRÉE pour valider.</p>
+<h2><a class="anchor" id="autotoc_md4"></a>
+Menu des options</h2>
+<p>Dans le menu des options, les touches Z,Q,S,D correspondent respectivement aux directions haut, gauche, bas, droite. L'utilisateur peut alors changer son personnage, modifier le mode de jeu ainsi que le niveau de la partie.</p>
+<h1><a class="anchor" id="autotoc_md5"></a>
+Règles du jeu</h1>
+<p>Le joueur possède une barre de vie ❤️ et un inventaire. Il apparaît dans un labyrinthe dont il doit trouver la sortie représentée par un drapeau à damier 🏁. Les déplacements sont réalisés en utilisant :</p><ul>
+<li>Z pour aller vers le haut ⬆️</li>
+<li>Q pour aller vers la gauche ⬅️</li>
 <li>S pour aller vers le bas ⬇️</li>
 <li>D pour aller vers la droite ➡️</li>
 </ul>
-<p>Sur votre route, vous aurez la possibilité de récupérer des bonus ou des malus :</p><ul>
-<li>Touches numériques 1️⃣ /2️⃣ /3️⃣ /4️⃣ /5️⃣ pour utiliser l'item depuis votre inventaire</li>
-</ul>
-<p>Leurs effets sont les suivants :</p>
-<ul>
-<li>Pièce d'or 🪙 : bonus de points de score</li>
-<li>Médicament 💊 : soigne 2 ❤️</li>
-<li>Ambulance 🚑 : soigne 5 ❤️</li>
-<li>Chute de pierres 🤕 : perte de 2 ❤️</li>
-<li>Piège à flammes 🔥 : perte de ❤️ sur la durée</li>
-<li>Poison 🧪 : perte plus intense de ❤️ sur la durée</li>
-<li>Champagne 🍾 : perturbe la vision et l'estimation des distances, augmente la sensibilité à l'éblouissement, altère la coordination des mouvements. (à consommer avec modération)</li>
-<li>Lait 🥛 : annule les effets du poison, du champagne et même du feu ! (à consommer sans modération)</li>
-<li>Fil d'Ariane 🧶 : indique la sortie du labyrinthe, si elle est accessible.</li>
-</ul>
-<p>Modes de jeu : Les modes EASY, NORMAL et HARD influent sur la vie de départ du joueur. À vous de découvrir les secrets des autres modes...</p>
-<p>Notes pour le mode Player :</p><ul>
+<p>Une fois arrivé à la sortie d'un niveau, un niveau plus grand démarre. À partir d'un certain seuil déterminé par le paramètre "niveau" du menu options, le joueur entre dans un ensemble de 9 labyrinthes dans lesquels il navigue grâce à des passages 🚩. Il doit alors trouver la clé 🗝️ puis la sortie 🏁.</p>
+<p>Si les PV du joueur tombent à 0, la partie est finie et le joueur est invité à contempler son score, puis à relancer une partie.</p>
+<h1><a class="anchor" id="autotoc_md6"></a>
+Évènements</h1>
+<p>Sur votre route, vous aurez la possibilité de rencontrer des bonus ou des malus. Certains s'activeront immédiatement mais d'autres se stockeront dans votre inventaire. Utilisez alors les touches numériques 1️⃣ /2️⃣ /3️⃣ /4️⃣ /5️⃣ pour utiliser l'item depuis votre inventaire.</p>
+<h2><a class="anchor" id="autotoc_md7"></a>
+Liste des évènements</h2>
+<table class="markdownTable">
+<tr class="markdownTableHead">
+<th class="markdownTableHeadNone">Évènement   </th><th class="markdownTableHeadNone">Symbole   </th><th class="markdownTableHeadNone">Effet    </th></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Pièce d'or   </td><td class="markdownTableBodyNone">🪙   </td><td class="markdownTableBodyNone">bonus de points de score    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Médicament   </td><td class="markdownTableBodyNone">💊   </td><td class="markdownTableBodyNone">soin de 2 PV❤️    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Ambulance   </td><td class="markdownTableBodyNone">🚑   </td><td class="markdownTableBodyNone">soin de 5 PV❤️    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Chute de pierres   </td><td class="markdownTableBodyNone">🤕   </td><td class="markdownTableBodyNone">perte de 2 PV❤️    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Piège à flammes   </td><td class="markdownTableBodyNone">🔥   </td><td class="markdownTableBodyNone">perte de PV❤️ sur la durée    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Poison   </td><td class="markdownTableBodyNone">🧪   </td><td class="markdownTableBodyNone">perte plus intense de PV❤️ sur la durée    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Champagne   </td><td class="markdownTableBodyNone">🍾   </td><td class="markdownTableBodyNone">perturbe la vision et l'estimation des distances, augmente la sensibilité à l'éblouissement, altère la coordination des mouvements. (à consommer avec modération)    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Lait   </td><td class="markdownTableBodyNone">🥛   </td><td class="markdownTableBodyNone">annule les effets du poison, du champagne et même du feu ! (à consommer sans modération)    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">Fil d'Ariane   </td><td class="markdownTableBodyNone">🧶   </td><td class="markdownTableBodyNone">indique la sortie du labyrinthe, si elle est accessible    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">Saxophone   </td><td class="markdownTableBodyNone">🎷   </td><td class="markdownTableBodyNone">bon pour le moral   </td></tr>
+</table>
+<p>Bien entendu, les effets du feu et du poison s'intensifient avec votre avancée dans la partie.</p>
+<h1><a class="anchor" id="autotoc_md8"></a>
+Modes de jeu</h1>
+<p>Pour pimenter votre expérience, différents modes de jeu existent, trois classiques et deux spéciaux : </p>
+<h2><a class="anchor" id="autotoc_md9"></a>
+EASY</h2>
+<p>Le joueur démarre avec 20 PV❤️ </p>
+<h2><a class="anchor" id="autotoc_md10"></a>
+MOYEN</h2>
+<p>Le joueur démarre avec 10 PV❤️ </p>
+<h2><a class="anchor" id="autotoc_md11"></a>
+HARD</h2>
+<p>Le joueur démarre avec 1 PV❤️ </p>
+<h2><a class="anchor" id="autotoc_md12"></a>
+BONUS</h2>
+<p>Un brouillard opaque a rempli les couloirs du labyrinthe, et les murs en deviennent indiscernables... </p>
+<h2><a class="anchor" id="autotoc_md13"></a>
+PLAYER</h2>
+<p>Pour une expérience plus immersive ! La caméra suit le joueur de près, et il n'est pas possible de voir l'entièreté du labyrinthe. Dans ce mode, certains objets développent une nouvelle utilité :</p><ul>
 <li>Le champagne 🍾 diminue le champ de vision du joueur, jusqu'à être guéri par un verre de lait 🥛.</li>
 <li>Le saxophone 🎷 augmente le champ de vision du joueur.</li>
 </ul>
-<p>Ce jeu a été realisé par Paul Brechenmacher, Paul Le Blanc, Etienne Massonnet et Gabin Alquier pour un projet de fin de premier semestre 2023-2024.</p>
-<pre class="fragment">Un aventurier maquillé
-  Maniant un instrument cuivré
-    Dans le dédale embrumé il ose s'aventurer,
-    D'un club légendaire il souhaite percer les secrets
-</pre> </div></div><!-- contents -->
+<h1><a class="anchor" id="autotoc_md14"></a>
+Contributeurs</h1>
+<ul>
+<li>Paul Brechenmacher</li>
+<li>Paul Le Blanc</li>
+<li>Gabin Alquier</li>
+<li>Etienne Massonnet</li>
+</ul>
+<h2><a class="anchor" id="autotoc_md15"></a>
+Amusez-vous bien !</h2>
+</div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Jan 16 2024 21:48:57 for Projet P2 : The Maze by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Fri Jan 19 2024 15:57:26 for Projet P2 : The Maze by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

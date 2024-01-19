@@ -1,4 +1,10 @@
 var searchData=
 [
-  ['useitem_169',['useItem',['../event_8c.html#aeba7fcd0d543d3d6ae5fe5da0c66f9af',1,'useItem(Jeu *jeu, int typeInput):&#160;event.c'],['../game_8h.html#ad740dc00372d92c7113420fd2f89d014',1,'useItem(Jeu *jeu, int typeInput):&#160;event.c']]]
+  ['tabmaze_163',['tabMaze',['../struct_maze.html#ac4640021749af6020a21b749e4f4416b',1,'Maze']]],
+  ['type_164',['type',['../struct_item.html#a22a98aed7ce8f0314b597a5739c415b7',1,'Item::type()'],['../structnode.html#a22a8c9208225c949d26f371f8b82bc36',1,'node::type()']]],
+  ['typeemoji_165',['typeEmoji',['../struct_options.html#aa06a07d46c1140fbd94dfd44f7afbc1f',1,'Options']]],
+  ['typeevent_166',['typeEvent',['../struct_jeu.html#ad86cd534ff25b082bcd2b50b153e45c7',1,'Jeu']]],
+  ['typelevel_167',['typeLevel',['../struct_options.html#a1f2d9c68c539990fcb4399a8eef12a90',1,'Options']]],
+  ['typemaze_168',['typeMaze',['../struct_maze.html#a11d4440fd8d9cc3aa043e4aed91fb8f7',1,'Maze']]],
+  ['typemode_169',['typeMode',['../struct_options.html#a865eb5944463979ff51e44e3efd31b9a',1,'Options']]]
 ];

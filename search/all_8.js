@@ -1,10 +1,12 @@
 var searchData=
 [
-  ['initialsize_89',['INITIALSIZE',['../structure_8h.html#a25ddcdf56908d6d6c9de32125a0008d1',1,'structure.h']]],
-  ['initjeu_90',['initJeu',['../game_8c.html#ae83ced6f7156e7baa72f7e4449a19f5c',1,'initJeu(Jeu *jeu):&#160;game.c'],['../game_8h.html#ae2ce0d15c1c6995f2a7a1016634071af',1,'initJeu(Jeu *jeu):&#160;game.c']]],
-  ['initoptions_91',['initOptions',['../game_8c.html#ae65e3cd5b3428caf5c90227bc086089c',1,'initOptions(char ****optionsTab, Options *options):&#160;game.c'],['../game_8h.html#a48f953b5e63c2ca3eb4facbdf2565221',1,'initOptions(char ****optionsTab, Options *options):&#160;game.c']]],
-  ['inventaire_92',['inventaire',['../struct_joueur.html#a60a1e6a19e42a7283022691f63f54478',1,'Joueur']]],
-  ['inversion_93',['inversion',['../event_8h.html#a040fad353c8bfac3cd8329eb5ea18910',1,'event.h']]],
-  ['item_94',['Item',['../struct_item.html',1,'Item'],['../structure_8h.html#a749adef16b111dddf0ab08f96707a3a0',1,'Item():&#160;structure.h']]],
-  ['itemliste_95',['itemListe',['../structure_8h.html#aa8c0b30d56cd82613629274f264dff22',1,'structure.h']]]
+  ['haut_81',['HAUT',['../structure_8h.html#acd0f9b88c35112b35f67d3cde4b2365c',1,'structure.h']]],
+  ['health_82',['HEALTH',['../structure_8h.html#aa8c0b30d56cd82613629274f264dff22ae3cc1f58e26cf5e3a7d8eeffa9da0d5a',1,'structure.h']]],
+  ['healthpotionevent_83',['healthPotionEvent',['../event_8c.html#ab795fec8278646cb80f2c660e3bf053e',1,'healthPotionEvent(Jeu *jeu):&#160;event.c'],['../event_8h.html#a97f1333980d1506155f640b2cf653b56',1,'healthPotionEvent(Jeu *jeu):&#160;event.c']]],
+  ['highscore_84',['highScore',['../struct_jeu.html#abdcd5600b0acc95b7b7157c60bbe2550',1,'Jeu']]],
+  ['hotbar1_85',['HOTBAR1',['../structure_8h.html#a2fa32b401af0dac806964c33295faacc',1,'structure.h']]],
+  ['hotbar2_86',['HOTBAR2',['../structure_8h.html#a160a9e24d7a0bce29d88e1f6ef86c26f',1,'structure.h']]],
+  ['hotbar3_87',['HOTBAR3',['../structure_8h.html#a0ef94a4e07fa4407f55778964f0e864e',1,'structure.h']]],
+  ['hotbar4_88',['HOTBAR4',['../structure_8h.html#adc2faaa30bcb43756ace6168ced57c70',1,'structure.h']]],
+  ['hotbar5_89',['HOTBAR5',['../structure_8h.html#a844a6af4e2b84bc28cbed7b62ea4c070',1,'structure.h']]]
 ];

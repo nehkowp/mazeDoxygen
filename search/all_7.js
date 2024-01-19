@@ -1,12 +1,11 @@
 var searchData=
 [
-  ['haut_80',['HAUT',['../structure_8h.html#acd0f9b88c35112b35f67d3cde4b2365c',1,'structure.h']]],
-  ['health_81',['HEALTH',['../structure_8h.html#aa8c0b30d56cd82613629274f264dff22ae3cc1f58e26cf5e3a7d8eeffa9da0d5a',1,'structure.h']]],
-  ['healthpotionevent_82',['healthPotionEvent',['../event_8c.html#ab795fec8278646cb80f2c660e3bf053e',1,'healthPotionEvent(Jeu *jeu):&#160;event.c'],['../event_8h.html#a97f1333980d1506155f640b2cf653b56',1,'healthPotionEvent(Jeu *jeu):&#160;event.c']]],
-  ['highscore_83',['highScore',['../struct_jeu.html#abdcd5600b0acc95b7b7157c60bbe2550',1,'Jeu']]],
-  ['hotbar1_84',['HOTBAR1',['../structure_8h.html#a2fa32b401af0dac806964c33295faacc',1,'structure.h']]],
-  ['hotbar2_85',['HOTBAR2',['../structure_8h.html#a160a9e24d7a0bce29d88e1f6ef86c26f',1,'structure.h']]],
-  ['hotbar3_86',['HOTBAR3',['../structure_8h.html#a0ef94a4e07fa4407f55778964f0e864e',1,'structure.h']]],
-  ['hotbar4_87',['HOTBAR4',['../structure_8h.html#adc2faaa30bcb43756ace6168ced57c70',1,'structure.h']]],
-  ['hotbar5_88',['HOTBAR5',['../structure_8h.html#a844a6af4e2b84bc28cbed7b62ea4c070',1,'structure.h']]]
+  ['game_2ec_73',['game.c',['../game_8c.html',1,'']]],
+  ['game_2eh_74',['game.h',['../game_8h.html',1,'']]],
+  ['gameover_75',['gameOver',['../game_8c.html#a2bbc3ae0c7344fcecb4ae5a846d1c205',1,'gameOver(int level, int score, int highScore):&#160;game.c'],['../game_8h.html#a0d185250d1351294aaa920ed74f6537b',1,'gameOver(int level, int score, int highscore):&#160;game.c']]],
+  ['gauche_76',['GAUCHE',['../structure_8h.html#af07f8bf974fdf76afd17f2b97ac15a22',1,'structure.h']]],
+  ['generation_2ec_77',['generation.c',['../generation_8c.html',1,'']]],
+  ['generation_2eh_78',['generation.h',['../generation_8h.html',1,'']]],
+  ['getoptions_79',['getOptions',['../game_8c.html#a78e327cc563836600fff8e804d3be66c',1,'getOptions(Options *options, int numOptions):&#160;game.c'],['../game_8h.html#a43a9076e5199ed5bd5fa1a83e3649fbe',1,'getOptions(Options *options, int numOptions):&#160;game.c']]],
+  ['getscorecsv_80',['getScoreCSV',['../game_8c.html#ae325d8a603684a703ad45cda3979dc2a',1,'getScoreCSV(Jeu *jeu):&#160;game.c'],['../game_8h.html#a05ae06047212211b981c4ea2098c06dc',1,'getScoreCSV(Jeu *jeu):&#160;game.c']]]
 ];

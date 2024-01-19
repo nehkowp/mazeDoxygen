@@ -1,10 +1,16 @@
 var searchData=
 [
-  ['tabmaze_162',['tabMaze',['../struct_maze.html#ac4640021749af6020a21b749e4f4416b',1,'Maze']]],
-  ['type_163',['type',['../struct_item.html#a22a98aed7ce8f0314b597a5739c415b7',1,'Item::type()'],['../structnode.html#a22a8c9208225c949d26f371f8b82bc36',1,'node::type()']]],
-  ['typeemoji_164',['typeEmoji',['../struct_options.html#aa06a07d46c1140fbd94dfd44f7afbc1f',1,'Options']]],
-  ['typeevent_165',['typeEvent',['../struct_jeu.html#ad86cd534ff25b082bcd2b50b153e45c7',1,'Jeu']]],
-  ['typelevel_166',['typeLevel',['../struct_options.html#a1f2d9c68c539990fcb4399a8eef12a90',1,'Options']]],
-  ['typemaze_167',['typeMaze',['../struct_maze.html#a11d4440fd8d9cc3aa043e4aed91fb8f7',1,'Maze']]],
-  ['typemode_168',['typeMode',['../struct_options.html#a865eb5944463979ff51e44e3efd31b9a',1,'Options']]]
+  ['savehighscorecsv_150',['saveHighScoreCSV',['../game_8c.html#a28a7eabc8b36694e60f8ef303a37a621',1,'saveHighScoreCSV(int highScore, int score):&#160;game.c'],['../game_8h.html#ac09ba7fac24f98931f9e6b888b6d3c60',1,'saveHighScoreCSV(int highScore, int newscore):&#160;game.c']]],
+  ['saveoptions_151',['saveOptions',['../game_8c.html#add7941c463d3c604b4fd6923fff41873',1,'saveOptions(Options *options, int numOptions, int numId):&#160;game.c'],['../game_8h.html#a1211097389c5f219e4c9fe53ad0f7db1',1,'saveOptions(Options *options, int numOptions, int numId):&#160;game.c']]],
+  ['score_152',['score',['../struct_jeu.html#afb0579457934264653eea59d9d94d5ee',1,'Jeu']]],
+  ['score_153',['SCORE',['../structure_8h.html#aa8c0b30d56cd82613629274f264dff22af57444a2814db96222f09035ff269767',1,'structure.h']]],
+  ['scoreprint_154',['scorePrint',['../affichage_8h.html#ae97b3ed7d02fb034523699d746c75cb3',1,'scorePrint(int scoreLen):&#160;affichage.c'],['../affichage_8c.html#abc0a681cd9ecf90a0acf1969aedd7b28',1,'scorePrint(int scoreLen):&#160;affichage.c']]],
+  ['setcheck_155',['setCheck',['../generation_8c.html#ad2befae8f684eab0d560cd6f25901eed',1,'generation.c']]],
+  ['setend_156',['setEnd',['../generation_8c.html#a2f4ebf0966a4dedfb080c9541f4d2831',1,'setEnd(int ***maze, int taille, int randPlacement):&#160;generation.c'],['../generation_8h.html#af6fc1173eb94147bfb2e051a659ca1b5',1,'setEnd(int ***maze, int taille, int randPlacement):&#160;generation.c']]],
+  ['setstart_157',['setStart',['../generation_8c.html#a143e0d9168f72982cb77116f829a073f',1,'setStart(int ***maze, int taille, int randPlacement, Joueur *j):&#160;generation.c'],['../generation_8h.html#afefb836862bdd7c1864268d006e5c464',1,'setStart(int ***matrice, int taille, int randPlacement, Joueur *j):&#160;generation.c']]],
+  ['setvalues_158',['setValues',['../generation_8c.html#a6b87b1461d1ba4bdb5133dbef0d995ab',1,'setValues(int values[4][19], int ligne, int colonne, int taille):&#160;generation.c'],['../generation_8h.html#ac95b1be30e020c71d694d2456142525f',1,'setValues(int values[4][19], int colonne, int ligne, int taille):&#160;generation.c']]],
+  ['sizemaze_159',['sizeMaze',['../struct_maze.html#a862343d5fd8e7d05fd8c05a28f21b068',1,'Maze']]],
+  ['space_160',['SPACE',['../structure_8h.html#a5ff6e798033f03e74730e99f01936f84',1,'structure.h']]],
+  ['start_161',['START',['../structure_8h.html#a3018c7600b7bb9866400596a56a57af7',1,'structure.h']]],
+  ['structure_2eh_162',['structure.h',['../structure_8h.html',1,'']]]
 ];

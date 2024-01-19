@@ -1,8 +1,10 @@
 var searchData=
 [
-  ['j_96',['j',['../struct_jeu.html#a9699ce0488a9a79d352a9d41944c0cf0',1,'Jeu']]],
-  ['jeu_97',['Jeu',['../struct_jeu.html',1,'Jeu'],['../structure_8h.html#a7de96d028a09f51fb47187daa184ed3a',1,'Jeu():&#160;structure.h']]],
-  ['jouerjeu_98',['jouerJeu',['../game_8c.html#a75ea364c4aa0f61a0e8e9c337adede51',1,'jouerJeu(Jeu *jeu):&#160;game.c'],['../game_8h.html#a36d47e7e3c6bdf164259b7f989033d85',1,'jouerJeu(Jeu *jeu):&#160;game.c']]],
-  ['jouermaze_99',['jouerMaze',['../game_8c.html#a97aa73f238511fec9bccc699965f93ea',1,'jouerMaze(Jeu *jeu):&#160;game.c'],['../game_8h.html#a280549b4bc06bb6ca3a3d007030fd0b0',1,'jouerMaze(Jeu *jeu):&#160;game.c']]],
-  ['joueur_100',['Joueur',['../struct_joueur.html',1,'Joueur'],['../structure_8h.html#ad2ad7f032ff7045e5e7b512a42878654',1,'Joueur():&#160;structure.h']]]
+  ['initialsize_90',['INITIALSIZE',['../structure_8h.html#a25ddcdf56908d6d6c9de32125a0008d1',1,'structure.h']]],
+  ['initjeu_91',['initJeu',['../game_8c.html#ae83ced6f7156e7baa72f7e4449a19f5c',1,'initJeu(Jeu *jeu):&#160;game.c'],['../game_8h.html#ae2ce0d15c1c6995f2a7a1016634071af',1,'initJeu(Jeu *jeu):&#160;game.c']]],
+  ['initoptions_92',['initOptions',['../game_8c.html#ae65e3cd5b3428caf5c90227bc086089c',1,'initOptions(char ****optionsTab, Options *options):&#160;game.c'],['../game_8h.html#a48f953b5e63c2ca3eb4facbdf2565221',1,'initOptions(char ****optionsTab, Options *options):&#160;game.c']]],
+  ['inventaire_93',['inventaire',['../struct_joueur.html#a60a1e6a19e42a7283022691f63f54478',1,'Joueur']]],
+  ['inversion_94',['inversion',['../event_8h.html#a040fad353c8bfac3cd8329eb5ea18910',1,'event.h']]],
+  ['item_95',['Item',['../struct_item.html',1,'Item'],['../structure_8h.html#a749adef16b111dddf0ab08f96707a3a0',1,'Item():&#160;structure.h']]],
+  ['itemliste_96',['itemListe',['../structure_8h.html#aa8c0b30d56cd82613629274f264dff22',1,'structure.h']]]
 ];

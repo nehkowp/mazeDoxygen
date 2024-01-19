@@ -1,9 +1,13 @@
 var searchData=
 [
-  ['readme_143',['README',['../md__r_e_a_d_m_e.html',1,'']]],
-  ['readme_2emd_144',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
-  ['regle_145',['regle',['../affichage_8c.html#afac8f258c79e3d09b381a77b16f4c961',1,'regle(Options *options):&#160;affichage.c'],['../affichage_8h.html#a3b76b9e1fcc0c9dc7248dceada3f9046',1,'regle(Options *options):&#160;affichage.c']]],
-  ['remonterarbre_146',['remonterArbre',['../event_8c.html#afd22406001991124b16eb2684528c7c0',1,'remonterArbre(arbreChemins a, int **tabAriane, Jeu *jeu):&#160;event.c'],['../event_8h.html#a17be33c59ad9f0a95c49775b51ac4076',1,'remonterArbre(arbreChemins a, int **tabAriane, Jeu *jeu):&#160;event.c']]],
-  ['reset_147',['reset',['../structure_8h.html#a01de9e6a115c86e1c2b8747df2b28925',1,'structure.h']]],
-  ['retirer_5fpile_148',['retirer_pile',['../generation_8c.html#a6c8cd63094b3563d983a8f8014a40531',1,'retirer_pile(const int ligne, const int colonne, int **cStack, int **rStack, int *index):&#160;generation.c'],['../generation_8h.html#a6f83345d0077c85636892b9d3e5c90b5',1,'retirer_pile(const int colonne, const int ligne, int **cStack, int **rStack, int *index):&#160;generation.c']]]
+  ['parent_135',['parent',['../structnode.html#a05e4fe9e0177ba2d8dbd2c487cfddd53',1,'node']]],
+  ['placerevents_136',['placerEvents',['../generation_8c.html#a363ca7ec815ed20bbe3299ac58edb0d0',1,'placerEvents(Maze *maze, int level):&#160;generation.c'],['../generation_8h.html#a4670334a14437d42a94085e98a27e389',1,'placerEvents(Maze *maze, int level):&#160;generation.c']]],
+  ['placerkeys_137',['placerKeys',['../generation_8c.html#a1fd470eaa56ddee20222e6171f7f2a64',1,'placerKeys(Maze *maze, Joueur *j):&#160;generation.c'],['../generation_8h.html#a05f303947d0dc977be382ad8caf5aca1',1,'placerKeys(Maze *maze, Joueur *j):&#160;generation.c']]],
+  ['player_138',['PLAYER',['../structure_8h.html#aad83b5ec5f8d43384c666cf26865aaea',1,'structure.h']]],
+  ['playmazesimple_139',['playMazeSimple',['../game_8c.html#a13e91e2049eb18affcb22379ff06c7fb',1,'playMazeSimple(Jeu *jeu):&#160;game.c'],['../game_8h.html#ab3e38c0fdad3096bffd35b5835b3abb7',1,'playMazeSimple(Jeu *jeu):&#160;game.c']]],
+  ['playmegamaze_140',['playMegaMaze',['../game_8c.html#a2f2be17ab6e26a5e44e309286c41bb87',1,'playMegaMaze(Jeu *jeu):&#160;game.c'],['../game_8h.html#ab751d8cc56c3841d0fd0ebb546b7ad93',1,'playMegaMaze(Jeu *jeu):&#160;game.c']]],
+  ['poison_141',['POISON',['../structure_8h.html#aa8c0b30d56cd82613629274f264dff22aafa82716ce8ad7247f07e61a5d88ba01',1,'structure.h']]],
+  ['positions_142',['positions',['../struct_joueur.html#a9c9b676a3cd447265503c409674fd09d',1,'Joueur::positions()'],['../structnode.html#abc81362e66bc009245109fbec8f4cb07',1,'node::positions()']]],
+  ['posmaze_143',['posMaze',['../struct_jeu.html#a1c3eff71d15b9f0a495155f893821e1a',1,'Jeu']]],
+  ['pvhealth_144',['pvHealth',['../struct_joueur.html#a7979ab6409fe12bf34cbce958f1c29ee',1,'Joueur']]]
 ];

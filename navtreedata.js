@@ -25,7 +25,27 @@
 var NAVTREE =
 [
   [ "Projet P2 : The Maze", "index.html", [
-    [ "README", "md__r_e_a_d_m_e.html", null ],
+    [ "\"THE MAZE\" par l'équipe WCKD", "md__r_e_a_d_m_e.html", [
+      [ "Documentation des fonctions et structures", "md__r_e_a_d_m_e.html#autotoc_md1", null ],
+      [ "Installation", "md__r_e_a_d_m_e.html#autotoc_md2", null ],
+      [ "Utilisation", "md__r_e_a_d_m_e.html#autotoc_md3", [
+        [ "Menu des options", "md__r_e_a_d_m_e.html#autotoc_md4", null ]
+      ] ],
+      [ "Règles du jeu", "md__r_e_a_d_m_e.html#autotoc_md5", null ],
+      [ "Évènements", "md__r_e_a_d_m_e.html#autotoc_md6", [
+        [ "Liste des évènements", "md__r_e_a_d_m_e.html#autotoc_md7", null ]
+      ] ],
+      [ "Modes de jeu", "md__r_e_a_d_m_e.html#autotoc_md8", [
+        [ "EASY", "md__r_e_a_d_m_e.html#autotoc_md9", null ],
+        [ "MOYEN", "md__r_e_a_d_m_e.html#autotoc_md10", null ],
+        [ "HARD", "md__r_e_a_d_m_e.html#autotoc_md11", null ],
+        [ "BONUS", "md__r_e_a_d_m_e.html#autotoc_md12", null ],
+        [ "PLAYER", "md__r_e_a_d_m_e.html#autotoc_md13", null ]
+      ] ],
+      [ "Contributeurs", "md__r_e_a_d_m_e.html#autotoc_md14", [
+        [ "Amusez-vous bien !", "md__r_e_a_d_m_e.html#autotoc_md15", null ]
+      ] ]
+    ] ],
     [ "Data Structures", "annotated.html", [
       [ "Data Structures", "annotated.html", "annotated_dup" ],
       [ "Data Structure Index", "classes.html", null ],
@@ -52,7 +72,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "affichage_8c.html",
-"structure_8h.html#a4b61441e73c1f41f6e5bfa9e3c3e8580"
+"structure_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

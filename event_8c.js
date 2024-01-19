@@ -15,6 +15,7 @@ var event_8c =
     [ "medikitEvent", "event_8c.html#a7227cb70c623cfa8e475614a7a3d052f", null ],
     [ "milkPotionEvent", "event_8c.html#a0ea87d181cd599d0938a7d24041386d8", null ],
     [ "naviguerArbreChemins", "event_8c.html#a55730a438cae73d73dc90f5bc4b938a3", null ],
+    [ "notSoRandom", "event_8c.html#ac3a9fd7da6986236678800ac9b20f989", null ],
     [ "remonterArbre", "event_8c.html#afd22406001991124b16eb2684528c7c0", null ],
     [ "useItem", "event_8c.html#aeba7fcd0d543d3d6ae5fe5da0c66f9af", null ],
     [ "verifEtatEvent", "event_8c.html#ac5a1122d4b00e56bcd3aef70a905bdad", null ],
